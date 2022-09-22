@@ -240,7 +240,7 @@ def Reform_Map_Voxel(map_path,new_map_path):
             #assert len(prev_voxel_size)==3
 
             if not(prev_voxel_size['x']==prev_voxel_size['y'] and prev_voxel_size['x']==prev_voxel_size['z']):
-                print("Grid size of different axis is different, please specify --resize=1 in command line to call another slow process to deal with it!")
+                print("Grid size of different axis is different, automatically call slower version to resize!")
                 exit(1)
             prev_voxel_size=float(prev_voxel_size['x'])
             nx, ny, nz, nxs, nys, nzs, mx, my, mz =\
