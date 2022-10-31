@@ -1,0 +1,1557 @@
+Query         pdb|2n1f|A 
+Match_columns 89
+No_of_seqs    123 out of 878
+Neff          5.39326
+Searched_HMMs 80799
+Date          Mon May  2 20:00:26 2022
+Command       /apps/miniconda38/envs/alphafold/bin/hhsearch -i /tmp/tmplmqptxx0/query.a3m -o /tmp/tmplmqptxx0/output.hhr -maxseq 1000000 -d /fast-scratch/apps/alphafold/databases//pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2N1F_L Apoptosis-associated sp  99.9 5.2E-26 6.4E-31  145.3   0.0   88    2-89      2-89  (89)
+  2 2NAQ_A NACHT, LRR and PYD doma  99.8 1.7E-25 2.1E-30  143.4   0.0   87    2-88      3-89  (91)
+  3 3J63_K Apoptosis-associated sp  99.8 1.7E-24 2.1E-29  138.4   0.0   87    2-88      3-89  (91)
+  4 2HM2_Q Pyrin-only protein 1; p  99.8 1.8E-24 2.3E-29  138.0   0.0   86    2-87      3-88  (89)
+  5 2MPC_A Pyrin; pyrin domain, de  99.8 2.8E-24 3.5E-29  141.0   0.0   87    2-88      4-90  (100)
+  6 2L6A_A NACHT, LRR and PYD doma  99.8 3.7E-24 4.6E-29  141.0   0.0   86    2-88     10-95  (102)
+  7 4QOB_A Pyrin domain-containing  99.8 1.1E-23 1.4E-28  137.3   0.0   87    2-88      3-89  (97)
+  8 2M5V_A NACHT, LRR and PYD doma  99.8 1.2E-23 1.5E-28  138.2   0.0   87    2-88     10-96  (102)
+  9 3QF2_B NACHT, LRR and PYD doma  99.8   2E-23 2.5E-28  139.3   0.0   87    2-88      3-89  (110)
+ 10 3QF2_A NACHT, LRR and PYD doma  99.8   2E-23 2.5E-28  139.3   0.0   87    2-88      3-89  (110)
+ 11 4N1L_A NACHT, LRR and PYD doma  99.8 2.9E-23 3.5E-28  137.4   0.0   86    2-88     13-98  (105)
+ 12 2KM6_A NACHT, LRR and PYD doma  99.8 4.1E-23   5E-28  137.1   0.0   87    2-88      7-93  (106)
+ 13 6NCV_F NACHT, LRR and PYD doma  99.8 1.3E-22 1.7E-27  135.1   0.0   85    2-88     17-101 (106)
+ 14 2KN6_A Apoptosis-associated sp  99.7 2.1E-22 2.6E-27  146.6   0.0   87    2-88     23-109 (215)
+ 15 1PN5_A NACHT-, LRR- and PYD-co  99.7 3.2E-22 3.9E-27  143.1   0.0   87    2-88     62-148 (159)
+ 16 4EWI_A NACHT, LRR and PYD doma  99.7 4.2E-22 5.2E-27  131.7   0.0   86    2-87      8-93  (113)
+ 17 4EWI_B NACHT, LRR and PYD doma  99.7 4.2E-22 5.2E-27  131.7   0.0   86    2-87      8-93  (113)
+ 18 6NPY_A NACHT, LRR and PYD doma  99.7   1E-21 1.3E-26  160.5   0.0   86    2-87      3-88  (1034)
+ 19 2N00_A Interferon-inducible pr  99.7 1.7E-21 2.1E-26  126.8   0.0   80    3-88      6-85  (95)
+ 20 2DO9_A NACHT-, LRR- and PYD-co  99.7 2.3E-21 2.8E-26  130.8   0.0   83    2-88     15-97  (115)
+ 21 2YU0_A Interferon-activable pr  99.7   3E-21 3.7E-26  125.6   0.0   81    2-88      5-86  (94)
+ 22 2DBG_A Myeloid cell nuclear di  99.7 3.1E-21 3.8E-26  128.2   0.0   80    3-88     13-93  (103)
+ 23 4O7Q_A Interferon-inducible pr  99.7 8.3E-21   1E-25  122.8   0.0   82    2-89      6-87  (94)
+ 24 6MB2_D Interferon-inducible pr  99.7 8.3E-21   1E-25  122.8   0.0   82    2-89      6-87  (94)
+ 25 6NDJ_B Maltose/maltodextrin-bi  99.6 3.5E-19 4.3E-24  136.2   0.0   83    4-88    386-468 (473)
+ 26 2GF5_A FADD protein; Death dom  96.1 0.00029 3.6E-09   50.1   0.0   75    3-85      4-80  (191)
+ 27 4IZ7_B Mitogen-activated prote  94.7  0.0045 5.6E-08   40.9   0.0   75    4-86      6-82  (97)
+ 28 6P6B_A Astrocytic phosphoprote  94.6  0.0057 7.1E-08   39.6   0.0   75    4-86      5-81  (90)
+ 29 5JQE_A Sugar ABC transporter s  94.5  0.0063 7.8E-08   49.4   0.0   73    4-84    383-457 (565)
+ 30 3CL3_A ORF K13, NF-kappa-B ess  94.5  0.0065   8E-08   44.4   0.0   75    4-87    100-175 (183)
+ 31 6AGW_A Caspase-8 pro-domain (E  94.2  0.0093 1.2E-07   43.9   0.0   74    4-86    102-177 (185)
+ 32 4ZBW_A Death effector domain;   94.1   0.011 1.3E-07   43.5   0.0   74    4-86    104-179 (190)
+ 33 5LDE_B Immunoglobulin G-bindin  93.8   0.015 1.8E-07   45.8   0.0   74    4-86    164-238 (265)
+ 34 2BBR_A Viral CASP8 and FADD-li  93.7   0.015 1.9E-07   43.4   0.0   78    4-86     97-175 (195)
+ 35 2BBZ_D Viral CASP8 and FADD-li  93.7   0.015 1.9E-07   45.4   0.0   78    4-86     97-175 (249)
+ 36 4IZ5_G Mitogen-activated prote  93.6   0.016   2E-07   40.9   0.0   75    4-86      8-84  (133)
+ 37 1A1Z_A FADD PROTEIN; APOPTOSIS  93.6   0.017 2.1E-07   38.3   0.0   75    4-86      5-81  (91)
+ 38 5LDE_A Immunoglobulin G-bindin  93.6   0.017 2.1E-07   45.4   0.0   74    4-86    164-238 (265)
+ 39 1N3K_A ASTROCYTIC phosphoprote  93.2   0.023 2.9E-07   40.0   0.0   75    4-86      5-81  (130)
+ 40 5L08_E Caspase-8 (E.C.3.4.22.6  93.0   0.028 3.5E-07   41.0   0.0   74    4-86    102-177 (184)
+ 41 5JQE_A Sugar ABC transporter s  91.1   0.085 1.1E-06   43.0   0.0   73    5-86    482-556 (565)
+ 42 6AGW_A Caspase-8 pro-domain (E  90.2    0.13 1.6E-06   38.1   0.0   73    3-83      3-77  (185)
+ 43 4ZBW_A Death effector domain;   89.2    0.18 2.2E-06   37.2   0.0   72    4-83      6-79  (190)
+ 44 5JUL_P Apaf-1 related killer D  88.3    0.24 2.9E-06   43.4   0.0   80    6-87     15-95  (1440)
+ 45 5L08_E Caspase-8 (E.C.3.4.22.6  87.8    0.27 3.3E-06   36.0   0.0   73    4-84      4-78  (184)
+ 46 3CL3_A ORF K13, NF-kappa-B ess  86.2     0.4 4.9E-06   35.2   0.0   69    3-83      8-76  (183)
+ 47 5LDE_A Immunoglobulin G-bindin  83.7    0.65   8E-06   36.9   0.0   69    3-83     72-140 (265)
+ 48 5LDE_B Immunoglobulin G-bindin  83.7    0.65 8.1E-06   36.8   0.0   69    3-83     72-140 (265)
+ 49 2BBR_A Viral CASP8 and FADD-li  47.5      15 0.00019   27.7   0.0   66    4-83     10-75  (195)
+ 50 3OQ9_E Tumor necrosis factor r  41.8      22 0.00027   21.6   0.0   25   63-87     59-83  (86)
+ 51 6AC0_A Gasdermin-A3; apoptosis  39.2      25 0.00031   23.7   0.0   25   63-87     86-110 (118)
+ 52 2BBZ_D Viral CASP8 and FADD-li  37.2      29 0.00035   27.7   0.0   66    4-83     10-75  (249)
+ 53 2YQF_A Ankyrin-1; death domain  35.7      31 0.00039   22.3   0.0   24   64-87     77-100 (111)
+ 54 2YVI_A Ankyrin-1; homo sapiens  35.7      31 0.00039   22.3   0.0   24   64-87     77-100 (111)
+ 55 4O6X_A Ankyrin-3; alpha helix   34.4      34 0.00042   23.3   0.0   25   63-87     63-87  (121)
+ 56 6FX4_A E3 ubiquitin-protein li  31.2      41 0.00051   22.5   0.0   22    5-26     28-49  (122)
+ 57 4YKC_A Malcavernin; adaptor pr  30.6      43 0.00053   25.5   0.0   36   13-61     21-56  (164)
+ 58 6FX4_C E3 ubiquitin-protein li  29.5      46 0.00057   22.3   0.0   22    5-26     28-49  (122)
+ 59 1NGR_A P75 LOW AFFINITY NEUROT  29.1      47 0.00058   19.9   0.0   22   64-85     62-83  (85)
+ 60 6V92_D Chromatin structure-rem  29.1      47 0.00059   25.7   0.0   31   37-67     91-121 (180)
+ 61 6FYH_A E3 ubiquitin-protein li  27.2      54 0.00067   22.0   0.0   22    5-26     29-50  (124)
+ 62 1WXP_A THO complex subunit 1;   26.3      57 0.00071   20.9   0.0   24   64-87     76-99  (110)
+ 63 3EZQ_D Tumor necrosis factor r  26.3      57 0.00071   22.1   0.0   25   63-87     64-88  (122)
+ 64 1Y0N_A Hypothetical UPF0270 pr  26.0      58 0.00072   21.8   0.0    6   38-43      5-10  (78)
+ 65 5YGS_D Human TNRSF25 death dom  25.5      60 0.00075   25.6   0.0   23   65-87    430-452 (463)
+ 66 6B4F_C Nucleoporin GLE1, Nucle  23.8      69 0.00085   19.7   0.0   18    7-24     13-30  (50)
+ 67 1E3Y_A FADD PROTEIN; APOPTOSIS  23.0      72 0.00089   20.2   0.0   24   64-87     69-92  (104)
+ 68 3EZQ_O Tumor necrosis factor r  22.1      78 0.00096   20.9   0.0   23   64-86     68-90  (115)
+ 69 6B4E_C Nucleoporin GLE1, Nucle  21.9      79 0.00098   18.4   0.0   15   10-24      6-20  (39)
+ 70 2IB1_A Death domain containing  21.5      81   0.001   19.2   0.0   24   64-87     61-84  (91)
+ 71 5W87_A Probable E3 ubiquitin-p  21.0      85   0.001   21.1   0.0   22    5-26     28-49  (121)
+ 72 4FQN_A Malcavernin; helical do  20.2      90  0.0011   21.1   0.0   37   12-61     27-63  (98)
+ 73 4FQN_D Malcavernin; helical do  20.2      90  0.0011   21.1   0.0   37   12-61     27-63  (98)
+
+No 1
+>2N1F_L Apoptosis-associated speck-like protein; mouse ASC filament, ASC Apoptosis-associated; NMR {Mus musculus}
+Probab=99.85  E-value=5.2e-26  Score=145.35  Aligned_cols=88  Identities=100%  Similarity=1.359  Sum_probs=83.7  Template_Neff=8.200
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||+.|++.++..++++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         2 ~~~~~L~~~L~~L~~~el~~FK~~L~~~~~~~~~~~i~~~~le~~~~~~la~~l~~~~~~~~a~~vt~~il~~m~~~dla   81 (89)
+T 2N1F_L            2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+T ss_dssp             HHHHHHHHHHTTSCHHHHHHHHHHHHHSCCCTTCCCCCHHHHHHCCHHHHHHHHHHHSCHHHHHHHHHHHHHHTCCCHHH
+T ss_pred             cHHHHHHHHHhcCCHHHHHHHHHHHhhcccccCCCCCCHHHHccCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCChHHHH
+Confidence            56789999999999999999999999987777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTKE   89 (89)
+Q Consensus        82 ~~L~~t~~   89 (89)
+                      +++++.+|
+T Consensus        82 ~~l~~~k~   89 (89)
+T 2N1F_L           82 EQLQTTKE   89 (89)
+T ss_dssp             HHHHHHHC
+T ss_pred             HHHHHhcC
+Confidence            99998875
+
+
+No 2
+>2NAQ_A NACHT, LRR and PYD domains-containing; Death Domain Superfamily, APOPTOSIS; NMR {Homo sapiens}
+Probab=99.84  E-value=1.7e-25  Score=143.44  Aligned_cols=87  Identities=24%  Similarity=0.382  Sum_probs=82.4  Template_Neff=8.200
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||++|++.++..|+++||++.++++++.++|++|+++|++++|++||+++|++||++++|
+T Consensus         3 ~~~~~L~~~Le~L~~~el~~FK~~L~~~~~~~~~~~i~~~~le~a~~~~l~~ll~~~~~~~~a~~vt~~il~~m~~~dla   82 (91)
+T 2NAQ_A            3 STRCKLARYLEDLEDVDLKKFKMHLEDYPPQKGCIPLPRGQTEKADHVDLATLMIDFNGEEKAWAMAVWIFAAINRRDLY   82 (91)
+T ss_dssp             CHHHHHHHHHHHSCHHHHHHHHHHHHTCCCSSSCCCCCHHHHHHSCHHHHHHHCCCCCHHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             cHHHHHHHHHHcCCHHHHHHHHHHHhcCCCCCCCCCCChHHhcCCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCCcHHHH
+Confidence            46788999999999999999999999998778999999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        83 ~~l~~~~   89 (91)
+T 2NAQ_A           83 EKAKRDE   89 (91)
+T ss_dssp             HHHHHHS
+T ss_pred             HHHHHhC
+Confidence            9998764
+
+
+No 3
+>3J63_K Apoptosis-associated speck-like protein containing a; helical polymer, variable twist, death; 3.8A {Homo sapiens}
+Probab=99.82  E-value=1.7e-24  Score=138.45  Aligned_cols=87  Identities=79%  Similarity=1.185  Sum_probs=82.7  Template_Neff=8.400
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||++|++.++..|+++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         3 ~~~~~L~~~L~~L~~~elk~FK~~L~~~~~~~~~~~i~~~~le~~~~~~la~~l~~~~~~~~a~~vt~~vl~~i~~~~la   82 (91)
+T 3J63_K            3 RARDAILDALENLTAEELKKFKLKLLSVPLREGYGRIPRGALLSMDALDLTDKLVSFYLETYGAELTANVLRDMGLQEMA   82 (91)
+T ss_dssp             THHHHHHTTTTSSCHHHHHHHHHHHHHSCCCTTCCCCCHHHHHHSCTTHHHHHHHHHSCHHHHHHHHHHHCCCCCCCHHH
+T ss_pred             hHHHHHHHHHHcCCHHHHHHHHHHHhcCCcccCCCCCCHHHHccCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCCcHHHH
+Confidence            46788999999999999999999999988878899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      +++++++
+T Consensus        83 ~~l~~~~   89 (91)
+T 3J63_K           83 GQLQAAT   89 (91)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHh
+Confidence            9998764
+
+
+No 4
+>2HM2_Q Pyrin-only protein 1; pyrin domain, six helix bundle; NMR {Homo sapiens}
+Probab=99.82  E-value=1.8e-24  Score=137.98  Aligned_cols=86  Identities=62%  Similarity=0.874  Sum_probs=81.6  Template_Neff=8.300
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||++|++.++..++++||++.++++++.++|++|+++|++++|++||+++|++||++++|
+T Consensus         3 ~~~~~Ll~~L~~L~~~e~k~FK~~L~~~~~~~~~~~i~~~~le~~~~~~la~~l~~~~~~~~a~~vt~~il~~i~~~~la   82 (89)
+T 2HM2_Q            3 TKREAILKVLENLTPEELKKFKMKLGTVPLREGFERIPRGALGQLDIVDLTDKLVASYYEDYAAELVVAVLRDMRMLEEA   82 (89)
+T ss_dssp             SHHHHHHHHHTTSCHHHHHHHHHHTTTSCCCTTCCCCCGGGTTTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             cHHHHHHHHHHcCCHHHHHHHHHHHcCCCcccCCCCCChHHhcCCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHH
+Confidence            46788999999999999999999999987777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTT   87 (89)
+Q Consensus        82 ~~L~~t   87 (89)
+                      ++++++
+T Consensus        83 ~~l~~~   88 (89)
+T 2HM2_Q           83 ARLQRA   88 (89)
+T ss_dssp             HHHHTC
+T ss_pred             HHHHHH
+Confidence            999875
+
+
+No 5
+>2MPC_A Pyrin; pyrin domain, death domain, inflammation; NMR {Homo sapiens}
+Probab=99.81  E-value=2.8e-24  Score=140.95  Aligned_cols=87  Identities=33%  Similarity=0.574  Sum_probs=82.4  Template_Neff=7.700
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||+.|++.++..|+++||++.++++++.++|++|+++|++.+|++||+.+|++||++++|
+T Consensus         4 ~~~~~Ll~~Le~L~~~elk~FK~~L~~~~~~~~~~~ip~~~le~~~~~~la~~L~~~y~~~~a~~vt~~vl~~m~~~~la   83 (100)
+T 2MPC_A            4 TPSDHLLSTLEELVPYDFEKFKFKLQNTSVQKEHSRIPRSQIQRARPVKMATLLVTYYGEEYAVQLTLQVLRAINQRLLA   83 (100)
+T ss_dssp             CHHHHHHHHHHHSCHHHHHHHHHHHTTSCCCTTCCCCCHHHHHHCCTTTHHHHHHHHTCHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             CHhHHHHHHHHhhCHHHHHHHHHHHhcCccccccCCCCHHHHHcCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCCcHHHH
+Confidence            56788999999999999999999999998777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      +++++..
+T Consensus        84 ~~l~~~~   90 (100)
+T 2MPC_A           84 EELHRAA   90 (100)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 6
+>2L6A_A NACHT, LRR and PYD domains-containing; NLRP12, PYRIN, death domain, signaling; NMR {Homo sapiens}
+Probab=99.81  E-value=3.7e-24  Score=140.97  Aligned_cols=86  Identities=24%  Similarity=0.357  Sum_probs=81.0  Template_Neff=7.600
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|++.+ ..++++||++.++++++.++|++|+++|++.+|++||+++|++||++++|
+T Consensus        10 ~~~~~Ll~~Le~L~~~elk~FK~~L~~~~-~~~~~~ip~~~le~~~~~~la~~L~~~y~~~~a~~vt~~il~~in~~dla   88 (102)
+T 2L6A_A           10 DGLCRLSTYLEELEAVELKKFKLYLGTAT-ELGEGKIPWGSMEKAGPLEMAQLLITHFGPEEAWRLALSTFERINRKDLW   88 (102)
+T ss_dssp             CSHHHHHHHHTTSCHHHHHHHHHHHHSCS-TTTTCSSCSSTTTTCCHHHHHHHHHHHTCHHHHHHHHHHHHGGGTCHHHH
+T ss_pred             cHHHHHHHHHHhcCHHHHHHHHHHHhhcc-ccCCCCCChhHhhcCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCCcHHHH
+Confidence            45788999999999999999999999987 56899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        89 ~~l~~~~   95 (102)
+T 2L6A_A           89 ERGQRED   95 (102)
+T ss_dssp             HTTCCCS
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 7
+>4QOB_A Pyrin domain-containing protein 1; Death domain superfamily, PROTEIN BINDING; 2.7A {Homo sapiens}
+Probab=99.79  E-value=1.1e-23  Score=137.31  Aligned_cols=87  Identities=61%  Similarity=0.863  Sum_probs=82.4  Template_Neff=7.800
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||+.|++.++..|+++||++.++++++.++|++|+++|++++|++||+++|++||++++|
+T Consensus         3 ~~~~~Ll~~Le~L~~eelk~FK~~L~~~~~~~~~~~i~~~~le~a~~~~la~ll~~~~~~~~a~~vt~~il~~i~~~~la   82 (97)
+T 4QOB_A            3 TKREAILKVLENLTPEELKKFKMKLGTVPLREGFERIPRGALGQLDIVDLTDKLVASYYEDYAAELVVAVLRDMRMLEEA   82 (97)
+T ss_dssp             CHHHHHHHHHHTSCHHHHHHHHHHHTTCCCCTTCCCCCHHHHHTCCHHHHHHHHHHHHCHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             cHHHHHHHHHHcCCHHHHHHHHHHHcCCCcccCCCCCChhHhcCCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHH
+Confidence            46788999999999999999999999988778899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        83 ~~l~~~~   89 (97)
+T 4QOB_A           83 ARLQRAA   89 (97)
+T ss_dssp             HHHHHHC
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 8
+>2M5V_A NACHT, LRR and PYD domains-containing; NLRP10, PYNOD, pyrin domain, IMMUNE; NMR {Homo sapiens}
+Probab=99.79  E-value=1.2e-23  Score=138.15  Aligned_cols=87  Identities=33%  Similarity=0.483  Sum_probs=82.1  Template_Neff=7.800
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +.+..|+++|++|++++|++||++|+..++..|+++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus        10 ~~~~~L~~~Le~L~~~el~~FK~~L~~~~~~~~~~~i~~~~le~~~~~~l~~~L~~~~~~~~al~vt~~iL~~i~~~dla   89 (102)
+T 2M5V_A           10 KPREALLWALSDLEENDFKKLKFYLRDMTLSEGQPPLARGELEGLIPVDLAELLISKYGEKEAVKVVLKGLKVMNLLELV   89 (102)
+T ss_dssp             CHHHHHHHHHHHSCHHHHHHHCCCCCHHHSCCCSCSSCGGGTTTSCHHHHHHHHHHHTCHHHHHHHHHHHHHTTTCHHHH
+T ss_pred             CHHHHHHHHHhcCCHHHHHHHHHHHHhCCccCCCCCCChhhhcCCCHHHHHHHHHHHhCHHHHHHHHHHHHHhCChHHHH
+Confidence            45788999999999999999999999998777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++|++.+
+T Consensus        90 ~~l~~~~   96 (102)
+T 2M5V_A           90 DQLSHIC   96 (102)
+T ss_dssp             HHHHHHT
+T ss_pred             HHHHHHh
+Confidence            9998764
+
+
+No 9
+>3QF2_B NACHT, LRR and PYD domains-containing; Six helix bundle, Apoptosis; 1.7A {Homo sapiens}
+Probab=99.78  E-value=2e-23  Score=139.27  Aligned_cols=87  Identities=24%  Similarity=0.382  Sum_probs=81.9  Template_Neff=7.500
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|++.++..|+++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         3 ~~~~~L~~~Le~L~~~elk~FK~~L~~~~~~~~~~~I~~~~le~a~~~~la~lLv~~y~~~~a~~vt~~vL~~i~~~dla   82 (110)
+T 3QF2_B            3 STRCKLARYLEDLEDVDLKKFKMHLEDYPPQKGCIPLPRGQTEKADHVDLATLMIDFNGEEKAWAMAVWIFAAINRRDLY   82 (110)
+T ss_pred             hHHHHHHHHHHhcCHHHHHHHHHHhccCCcccCCCCCCHHHHhcCCHHHHHHHHHHHHCHHHHHHHHHHHHHHCCcHHHH
+Confidence            45788999999999999999999999988777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        83 ~~l~~~~   89 (110)
+T 3QF2_B           83 EKAKRDE   89 (110)
+T ss_pred             HHHHHHH
+Confidence            9998763
+
+
+No 10
+>3QF2_A NACHT, LRR and PYD domains-containing; Six helix bundle, Apoptosis; 1.7A {Homo sapiens}
+Probab=99.78  E-value=2e-23  Score=139.25  Aligned_cols=87  Identities=24%  Similarity=0.382  Sum_probs=82.0  Template_Neff=7.500
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|++.++..|+++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         3 ~~~~~L~~~Le~L~~~elk~FK~~L~~~~~~~~~~~I~~~~le~a~~~~la~lLv~~y~~~~a~~vt~~vL~~i~~~dla   82 (110)
+T 3QF2_A            3 STRCKLARYLEDLEDVDLKKFKMHLEDYPPQKGCIPLPRGQTEKADHVDLATLMIDFNGEEKAWAMAVWIFAAINRRDLY   82 (110)
+T ss_dssp             CHHHHHHHHHHTCCHHHHHHHHHHHHTCCSSSSCCCCCHHHHHHCCHHHHHHHHHHHHCHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             hHHHHHHHHHHhcCHHHHHHHHHHHhcCCCCCCCCCCChhhhhcCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCCcHHHH
+Confidence            45788999999999999999999999988777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        83 ~~l~~~~   89 (110)
+T 3QF2_A           83 EKAKRDE   89 (110)
+T ss_dssp             HHHHHTC
+T ss_pred             HHHHHhh
+Confidence            9998763
+
+
+No 11
+>4N1L_A NACHT, LRR and PYD domains-containing; death domain fold, pyrin domain; 1.986A {Homo sapiens}
+Probab=99.78  E-value=2.9e-23  Score=137.40  Aligned_cols=86  Identities=21%  Similarity=0.317  Sum_probs=79.8  Template_Neff=7.600
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|++. +..++++||++.++++++.++|++|+++|++.+|++||+.+|++||++++|
+T Consensus        13 ~~~~~L~~~Le~L~~~el~~FK~~L~~~-~~~~~~~ip~~~le~a~~~~la~lLv~~y~~~~a~~vt~~il~~mn~~dla   91 (105)
+T 4N1L_A           13 FPDFGLLLYLEELNKEELNTFKLFLKET-MEPEHGLTPWNEVKKARREDLANLMKKYYPGEKAWSVSLKIFGKMNRKDLC   91 (105)
+T ss_dssp             CCCCCHHHHHTTSCHHHHHHHHHHHHHH-HTTTSCSHHHHHHHHCCHHHHHHHHHHHSTTHHHHHHHHHHHHHTTCHHHH
+T ss_pred             CchHHHHHHHHhcCHHHHHHHHHHHHhc-cCcccCCCCHHHHHhCCHHHHHHHHHHHCCHHHHHHHHHHHHHhCCcHHHH
+Confidence            3577899999999999999999999954 556899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        92 ~~l~~~~   98 (105)
+T 4N1L_A           92 ERAKEEI   98 (105)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 12
+>2KM6_A NACHT, LRR and PYD domains-containing; NLRP7, pyrin domain, innate immune; NMR {Homo sapiens}
+Probab=99.77  E-value=4.1e-23  Score=137.05  Aligned_cols=87  Identities=26%  Similarity=0.346  Sum_probs=82.3  Template_Neff=7.500
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|++.++..|+++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         7 ~~~~~Ll~~Le~L~~~elk~FK~~L~~~~~~~~~~~i~~~~le~a~~~~la~~Lv~~~~~~~a~~vt~~vL~~m~~~dla   86 (106)
+T 2KM6_A            7 QLEWTLQTLLEQLNEDELKSFKSLLWAFPLEDVLQKTPWSEVEEADGKKLAEILVNTSSENWIRNATVNILEEMNLTELC   86 (106)
+T ss_dssp             HHHHHHHHHHHHSCTTHHHHHHHHHTTSCCCTTGGGCCHHHHHHCCTHHHHHHHHHHSCHHHHHHHHHHHHHHTTCCTTH
+T ss_pred             HHHHHHHHHHHhcCHHHHHHHHHHHhcCChHhhcCCCCHHHHhhCCHHHHHHHHHHHCCHHHHHHHHHHHHHHCChHHHH
+Confidence            36788999999999999999999999998777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus        87 ~~l~~~~   93 (106)
+T 2KM6_A           87 KMAKAEM   93 (106)
+T ss_dssp             HHHTTTT
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 13
+>6NCV_F NACHT, LRR and PYD domains-containing; death domain fold, helical assembly; 3.7A {Homo sapiens}
+Probab=99.76  E-value=1.3e-22  Score=135.10  Aligned_cols=85  Identities=36%  Similarity=0.537  Sum_probs=80.2  Template_Neff=7.200
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|.+.++  ++++||++.++++++.++|++|+++|++.+|++||++||++||++++|
+T Consensus        17 ~~~~~Ll~~Le~L~~eelk~FK~~L~~~~~--~~~~ip~~~le~a~~~~la~~Lv~~~~~~~a~~vt~~vL~~in~~~la   94 (106)
+T 6NCV_F           17 VARELLLAALEELSQEQLKRFRHKLRDVGP--DGRSIPWGRLERADAVDLAEQLAQFYGPEPALEVARKTLKRADARDVA   94 (106)
+T ss_dssp             HHHHHHHTTTTTSCHHHHHHHHHTTTTCSS--SSCCCCGGGTTTCCHHHHHHHHHHHSCTTTHHHHHHHHHTTTTCHHHH
+T ss_pred             HHHHHHHHHHHhcCHHHHHHHHHHHhhcCC--CCCCCCHHHHccCCHHHHHHHHHHHHCcHHHHHHHHHHHHHCCcHHHH
+Confidence            467889999999999999999999999876  689999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      +++++++
+T Consensus        95 ~~l~~~~  101 (106)
+T 6NCV_F           95 AQLQERR  101 (106)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 14
+>2KN6_A Apoptosis-associated speck-like protein containing a; Multidomain modular protein structure, Interdomain; NMR {Homo sapiens}
+Probab=99.75  E-value=2.1e-22  Score=146.59  Aligned_cols=87  Identities=79%  Similarity=1.185  Sum_probs=82.0  Template_Neff=8.000
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .+++.|+++|++|++++|++||++|.+.++..|+++||++.++++++.++|++|+++|++++|++||.++|++||++++|
+T Consensus        23 ~~~~~Ll~~Le~L~~~el~~FK~~L~~~~~~~g~~~i~~~~le~a~~~~la~~l~~~y~~~~a~~vt~~il~~i~~~dla  102 (215)
+T 2KN6_A           23 RARDAILDALENLTAEELKKFKLKLLSVPLREGYGRIPRGALLSMDALDLTDKLVSFYLETYGAELTANVLRDMGLQEMA  102 (215)
+T ss_pred             hHHHHHHHHHHhCCHHHHHHHHHHHccCCccCCCCCCCHHHHhcCCHHHHHHHHHHHHCHHHHHHHHHHHHHHCCcHHHH
+Confidence            45788999999999999999999999988778999999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++|+++.
+T Consensus       103 ~~l~~~~  109 (215)
+T 2KN6_A          103 GQLQAAT  109 (215)
+T ss_pred             HHHHHHH
+Confidence            9988753
+
+
+No 15
+>1PN5_A NACHT-, LRR- and PYD-containing protein; 5 ALPHA-HELIX BUNDLE, APOPTOSIS; NMR {Homo sapiens} SCOP: a.77.1.5
+Probab=99.74  E-value=3.2e-22  Score=143.14  Aligned_cols=87  Identities=23%  Similarity=0.271  Sum_probs=82.4  Template_Neff=5.700
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      ..++.|+++|++|++++|++||++|+..++..++++||++.++++++.++|++|+++|++++|++|++.+|++||++++|
+T Consensus        62 ~~~~~Ll~~LEeL~~eELkkFK~~L~~~~~~~g~~~Ip~~~LE~adr~~LadlLv~~yg~e~Av~Vti~ILrkInr~dLA  141 (159)
+T 1PN5_A           62 GAWGRLACYLEFLKKEELKEFQLLLANKAHSRSSSGETPAQPEKTSGMEVASYLVAQYGEQRAWDLALHTWEQMGLRSLC  141 (159)
+T ss_dssp             SSCTTHHHHHHHCCHHHHHHHHHHHHHHCTTCCSSCSCSSCCCCCSHHHHHHHHHHHTCHHHHHHHHHHHHHHHTCHHHH
+T ss_pred             cHHHHHHHHHHhcCHHHHHHHHHHHhccccccCCCCCCccccccCCHHHHHHHHHHHHCHHHHHHHHHHHHHHcCcHHHH
+Confidence            46788999999999999999999999998777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++++++.
+T Consensus       142 ekL~~~~  148 (159)
+T 1PN5_A          142 AQAQEGA  148 (159)
+T ss_dssp             HHTTSSS
+T ss_pred             HHHHHHh
+Confidence            9998764
+
+
+No 16
+>4EWI_A NACHT, LRR and PYD domains-containing; NLR proteins, Death Domain, Pyrin; 2.28A {Homo sapiens}
+Probab=99.74  E-value=4.2e-22  Score=131.72  Aligned_cols=86  Identities=21%  Similarity=0.330  Sum_probs=80.9  Template_Neff=8.400
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||+.|++.++..|+++||++.++++++.++|++|+++|++.+|++||+++|++||++++|
+T Consensus         8 ~~~~~L~~~Le~L~~~el~~FK~~L~~~~~~~~~~~i~~~~le~~~~~~l~~~l~~~~~~~~a~~vt~~il~~i~~~dla   87 (113)
+T 4EWI_A            8 FSDFGLMWYLEELKKEEFRKFKEHLKQMTLQLELKQIPWTEVKKASREELANLLIKHYEEQQAWNITLRIFQKMDRKDLC   87 (113)
+T ss_dssp             TTCCHHHHHHTTSCHHHHHHHHHHHHHHHHHTTCCCCCHHHHHHCCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             chHHHHHHHHHhcCHHHHHHHHHHHHhcchhhccCCCCHHHHhcCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHH
+Confidence            36788999999999999999999999987777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTT   87 (89)
+Q Consensus        82 ~~L~~t   87 (89)
+                      +++++.
+T Consensus        88 ~~l~~~   93 (113)
+T 4EWI_A           88 MKVMRE   93 (113)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            998754
+
+
+No 17
+>4EWI_B NACHT, LRR and PYD domains-containing; NLR proteins, Death Domain, Pyrin; 2.28A {Homo sapiens}
+Probab=99.74  E-value=4.2e-22  Score=131.72  Aligned_cols=86  Identities=21%  Similarity=0.330  Sum_probs=80.9  Template_Neff=8.400
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||+.|++.++..|+++||++.++++++.++|++|+++|++.+|++||+++|++||++++|
+T Consensus         8 ~~~~~L~~~Le~L~~~el~~FK~~L~~~~~~~~~~~i~~~~le~~~~~~l~~~l~~~~~~~~a~~vt~~il~~i~~~dla   87 (113)
+T 4EWI_B            8 FSDFGLMWYLEELKKEEFRKFKEHLKQMTLQLELKQIPWTEVKKASREELANLLIKHYEEQQAWNITLRIFQKMDRKDLC   87 (113)
+T ss_dssp             CSCCHHHHHHTTSCHHHHHHHHHHHHHHHHHTTCCCCCHHHHHHCCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             chHHHHHHHHHhcCHHHHHHHHHHHHhcchhhccCCCCHHHHhcCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHH
+Confidence            36788999999999999999999999987777899999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTT   87 (89)
+Q Consensus        82 ~~L~~t   87 (89)
+                      +++++.
+T Consensus        88 ~~l~~~   93 (113)
+T 4EWI_B           88 MKVMRE   93 (113)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            998754
+
+
+No 18
+>6NPY_A NACHT, LRR and PYD domains-containing; Inflammasome, Activator, Biological process Immunity; HET: ADP; 3.8A {Homo sapiens}
+Probab=99.72  E-value=1e-21  Score=160.54  Aligned_cols=86  Identities=24%  Similarity=0.382  Sum_probs=82.1  Template_Neff=11.000
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +++..|+++|++|++++|++||++|.+.++..|+++|||+.++++|+.++|++|+++|++++||+||++||++||++++|
+T Consensus         3 ~~~~~l~~~l~~l~~~~~~~fk~~l~~~~~~~~~~~i~~~~~~~~~~~~~~~~l~~~~~~~~a~~~~~~~~~~~~~~~~~   82 (1034)
+T 6NPY_A            3 STRCKLARYLEDLEDVDLKKFKMHLEDYPPQKGCIPLPRGQTEKADHVDLATLMIDFNGEEKAWAMAVWIFAAINRRDLY   82 (1034)
+T ss_pred             chhhHHHHHHHhcCHHHHHHHHHHhhcCCccCCCCCCCHHHHhhCCHHHHHHHHHHHHCHHHHHHHHHHHHHHCChHHHH
+Confidence            46788999999999999999999999988888999999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTT   87 (89)
+Q Consensus        82 ~~L~~t   87 (89)
+                      ++++++
+T Consensus        83 ~~~~~~   88 (1034)
+T 6NPY_A           83 EKAKRD   88 (1034)
+T ss_pred             HHHHHH
+Confidence            999875
+
+
+No 19
+>2N00_A Interferon-inducible protein AIM2; AIM2, PYD, DNA BINDING PROTEIN; NMR {Mus musculus}
+Probab=99.71  E-value=1.7e-21  Score=126.77  Aligned_cols=80  Identities=24%  Similarity=0.396  Sum_probs=74.0  Template_Neff=7.700
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      ....|+++|++|++++|++||++|.+.     ++ ||++.++++++.++|++|+++|++++|++|++++|++||++++|+
+T Consensus         6 ~~~~Ll~~Le~L~~~e~~~FK~~L~~~-----~~-i~~~~le~a~~~~la~~l~~~y~~~~a~~v~~~vl~~i~~~dla~   79 (95)
+T 2N00_A            6 REMLLLTGLDHITEEELKRFKYFALTE-----FQ-IARSTLDVADRTELADHLIQSAGAASAVTKAINIFQKLNYMHIAN   79 (95)
+T ss_dssp             HHHHHHHHHTTSCHHHHHHHHHHHCSS-----SC-CCTTGGGTCCCCCHHHHHHHHTCHHHHHHHHHHHHCCCCCTTTHH
+T ss_pred             hHHHHHHHHhcCCHHHHHHHHHHhhcC-----cC-CCHHHHhhCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHHH
+Confidence            345699999999999999999999863     67 999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       83 QLQTTK   88 (89)
+Q Consensus        83 ~L~~t~   88 (89)
+                      +++++.
+T Consensus        80 ~l~~~~   85 (95)
+T 2N00_A           80 ALEEKK   85 (95)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            998764
+
+
+No 20
+>2DO9_A NACHT-, LRR- and PYD-containing protein; NALP, apoptosis, inflammation, Structural Genomics; NMR {Mus musculus}
+Probab=99.71  E-value=2.3e-21  Score=130.80  Aligned_cols=83  Identities=29%  Similarity=0.411  Sum_probs=77.2  Template_Neff=7.200
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|.+.+.    ++||++.++++++.++|++|+++|++++||+||+.||++||++++|
+T Consensus        15 ~~~~~Ll~~Le~L~~~elk~FK~~L~~~~~----~~ip~~~le~ad~~~ladlLv~~y~~~~A~~vt~~iL~~i~~~dLa   90 (115)
+T 2DO9_A           15 SPQEALLWALNDLEENSFKTLKFHLRDVTQ----FHLARGELESLSQVDLASKLISMYGAQEAVRVVSRSLLAMNLMELV   90 (115)
+T ss_dssp             SHHHHHHHHHHHSCHHHHHHHHHHHHHHHC----SSCCSSSTTTCCTTHHHHHHHHHTCHHHHHHHHHHHHHHHTCHHHH
+T ss_pred             CHHHHHHHHHHhcCHHHHHHHHHHhccCcc----ccCCHHHHhcCCHHHHHHHHHHHhCHHHHHHHHHHHHHHCChHHHH
+Confidence            367789999999999999999999998753    5999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++|++++
+T Consensus        91 ~~L~~~~   97 (115)
+T 2DO9_A           91 DYLNQVC   97 (115)
+T ss_dssp             HHHHHCC
+T ss_pred             HHHHHHh
+Confidence            9998764
+
+
+No 21
+>2YU0_A Interferon-activable protein 205; PAAD_DAPIN, Structural Genomics, NPPSFA, National; NMR {Mus musculus}
+Probab=99.70  E-value=3e-21  Score=125.61  Aligned_cols=81  Identities=17%  Similarity=0.202  Sum_probs=75.7  Template_Neff=7.600
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGL-QEL   80 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~-~dl   80 (89)
+                      .+++.|+++|++|++++|++||++|.+.      ++||++.++++++.++|++|+++|++.+|++||+.+|++||+ +++
+T Consensus         5 ~~~~~Ll~~Le~L~~~ef~~FK~~L~~~------~~i~~~~le~~~~~~la~~L~~~y~~~~al~vt~~il~~i~~~~dl   78 (94)
+T 2YU0_A            5 SSGIVLLRGLECINKHYFSLFKSLLARD------LNLERDNQEQYTTIQIANMMEEKFPADSGLGKLIEFCEEVPALRKR   78 (94)
+T ss_dssp             CCCCCTTTTTTTSCHHHHHHHHHHHHTT------TCCCSSCSSSCCHHHHHHHHHHHCTTTTTHHHHHHHHHHSTTTHHH
+T ss_pred             hHHHHHHHHHHhhCHHHHHHHHHHhhcc------CCCChHHHhcCCHHHHHHHHHHHCCHhHHHHHHHHHHHHCcchHHH
+Confidence            4678899999999999999999999874      489999999999999999999999999999999999999999 999
+
+
+Q pdb|2n1f|A       81 AEQLQTTK   88 (89)
+Q Consensus        81 A~~L~~t~   88 (89)
+                      |++|+++.
+T Consensus        79 a~~l~~~~   86 (94)
+T 2YU0_A           79 AEILKKER   86 (94)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            99998864
+
+
+No 22
+>2DBG_A Myeloid cell nuclear differentiation antigen; INTERFERON INDUCTION, DNA-BINDING, Structural Genomics; NMR {Homo sapiens}
+Probab=99.70  E-value=3.1e-21  Score=128.15  Aligned_cols=80  Identities=16%  Similarity=0.184  Sum_probs=74.5  Template_Neff=7.100
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGL-QELA   81 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~-~dlA   81 (89)
+                      ....|+++|++|++++|++||++|.+.      ++||++.++++++.++|++|+++|++++|++||+.||++||+ +++|
+T Consensus        13 ~~~~Ll~~Le~L~~~el~~FK~~L~~~------~~i~~~~le~a~~~~la~lL~~~y~~~~A~~vt~~vL~~m~~~~dla   86 (103)
+T 2DBG_A           13 KKILLLKGFELMDDYHFTSIKSLLAYD------LGLTTKMQEEYNRIKITDLMEKKFQGVACLDKLIELAKDMPSLKNLV   86 (103)
+T ss_dssp             HHHHCCCCCTTCCHHHHHHHHHHHHHH------HCCCHHHHHHSCHHHHHHHHHHHSCTTHHHHHHHHHTSSCGGGHHHH
+T ss_pred             HHHHHHHHHHhCCHHHHHHHHHHhhhc------cCCCHHHHHhcCHHHHHHHHHHHcChhHHHHHHHHHHHhCcchHHHH
+Confidence            356799999999999999999999874      389999999999999999999999999999999999999999 9999
+
+
+Q pdb|2n1f|A       82 EQLQTTK   88 (89)
+Q Consensus        82 ~~L~~t~   88 (89)
+                      ++|+++.
+T Consensus        87 ~~l~~~~   93 (103)
+T 2DBG_A           87 NNLRKEK   93 (103)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            9998764
+
+
+No 23
+>4O7Q_A Interferon-inducible protein AIM2; PYD/DD, SIGNAL TRANSDUCTION, INFLAMMASOME, SIGNALING; 1.82A {Homo sapiens}
+Probab=99.68  E-value=8.3e-21  Score=122.84  Aligned_cols=82  Identities=23%  Similarity=0.298  Sum_probs=76.3  Template_Neff=8.000
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|.+.      ++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         6 ~~~~~L~~~Le~L~~~el~~FK~~L~~~------~~i~~~~le~~~~~~la~~l~~~~~~~~a~~vt~~il~~i~~~~la   79 (94)
+T 4O7Q_A            6 YKEILLLTGLDNITDEELDRFKGFLSDE------FNIATGKLHTANRIQVATLMIQNAGAVSAVMKTIRIFQKLNYMLLA   79 (94)
+T ss_dssp             HHHCCCCCCGGGSCHHHHHHHHHHHTTT------SSCCHHHHTTCCHHHHHHHHHHHHCHHHHHHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHHHhcCCHHHHHHHHHHHhcc------cCCChHHHhcCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHH
+Confidence            3567899999999999999999999875      6899999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTKE   89 (89)
+Q Consensus        82 ~~L~~t~~   89 (89)
+                      ++++++++
+T Consensus        80 ~~l~~~~~   87 (94)
+T 4O7Q_A           80 KRLQEEKE   87 (94)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            99988753
+
+
+No 24
+>6MB2_D Interferon-inducible protein AIM2, Green fluorescent; Filament, higher order, innate immunity; HET: MSE, CRO; 5.0A {Homo sapiens}
+Probab=99.68  E-value=8.3e-21  Score=122.84  Aligned_cols=82  Identities=23%  Similarity=0.298  Sum_probs=76.3  Template_Neff=8.000
+
+Q pdb|2n1f|A        2 RARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         2 r~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA   81 (89)
+                      .++..|+++|++|++++|++||++|.+.      ++||++.++++++.++|++|+++|++++|++||+.+|++||++++|
+T Consensus         6 ~~~~~L~~~Le~L~~~el~~FK~~L~~~------~~i~~~~le~~~~~~la~~l~~~~~~~~a~~vt~~il~~i~~~~la   79 (94)
+T 6MB2_D            6 YKEILLLTGLDNITDEELDRFKGFLSDE------FNIATGKLHTANRIQVATLMIQNAGAVSAVMKTIRIFQKLNYMLLA   79 (94)
+T ss_dssp             HHHCCCCCCCTTCCSHHHHHHHHTCSSS------SSCCSTTSTTCCHHHHHHHHHHHTCTTHHHHHHHHHHHHSSCCHHH
+T ss_pred             HHHHHHHHHHhcCCHHHHHHHHHHHhcc------cCCChHHHhcCCHHHHHHHHHHHcCHHHHHHHHHHHHHHCCcHHHH
+Confidence            3567899999999999999999999875      6899999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       82 EQLQTTKE   89 (89)
+Q Consensus        82 ~~L~~t~~   89 (89)
+                      ++++++++
+T Consensus        80 ~~l~~~~~   87 (94)
+T 6MB2_D           80 KRLQEEKE   87 (94)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            99988753
+
+
+No 25
+>6NDJ_B Maltose/maltodextrin-binding periplasmic protein, NACHT, LRR; death domain fold, inflammasome, SIGNALING; 2.27A {Escherichia coli}
+Probab=99.59  E-value=3.5e-19  Score=136.15  Aligned_cols=83  Identities=36%  Similarity=0.555  Sum_probs=77.7  Template_Neff=10.500
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAEQ   83 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~~   83 (89)
+                      +..|+++|++|+.++|++||.+|...+  .|+++||++.++++++.++|++|+++|++++|++|++.+|++||++++|++
+T Consensus       386 ~~~l~~~l~~l~~~~~~~~~~~l~~~~--~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~a~~v~~~~~~~~~~~~l~~~  463 (473)
+T 6NDJ_B          386 RELLLAALEELSQEQLKRFRHKLRDVG--PDGRSIPWGRLERADAVDLAEQLAQFYGPEPALEVARKTLKRADARDVAAQ  463 (473)
+T ss_pred             HHHHHHHHHhcCHHHHHhHHHHhccCC--CCCCCCCHHHHccCCHHhHHHHHHHHHCHHHHHHHHHHHHHHCCcHHHHHH
+Confidence            456889999999999999999999874  389999999999999999999999999999999999999999999999999
+
+
+Q pdb|2n1f|A       84 LQTTK   88 (89)
+Q Consensus        84 L~~t~   88 (89)
+                      |++++
+T Consensus       464 ~~~~~  468 (473)
+T 6NDJ_B          464 LQERR  468 (473)
+T ss_pred             HHHHH
+Confidence            99774
+
+
+No 26
+>2GF5_A FADD protein; Death domain, death effector domain; NMR {Homo sapiens} SCOP: a.77.1.4, a.77.1.2
+Probab=96.06  E-value=0.00029  Score=50.09  Aligned_cols=75  Identities=20%  Similarity=0.199  Sum_probs=58.2  Template_Neff=9.100
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMD-AIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQEL   80 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad-~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dl   80 (89)
+                      .+..|...-++|+.++++.+|+.+++.        ||...++... ..++...|....- ....+.+..++|..|++.|+
+T Consensus         4 ~r~ll~~I~~~L~~~dl~~lkfl~~~~--------i~~~~l~~~~~~~~l~~~Le~~~~l~~~~l~~L~~ll~~i~r~dL   75 (191)
+T 2GF5_A            4 FLVLLHSVSSSLSSSELTELKYLCLGR--------VGKRKLERVQSGLDLFSMLLEQNDLEPGHTELLRELLASLRRHDL   75 (191)
+T ss_pred             HHHHHHHHHhcCCHHHHHHHHHHhccc--------CCHHHHhhCCcHHHHHHHHHHCCCCCcccHHHHHHHHHHhChHHH
+Confidence            456777888999999999999988763        5677777764 7888888888532 23467777899999999899
+
+
+Q pdb|2n1f|A       81 AEQLQ   85 (89)
+Q Consensus        81 A~~L~   85 (89)
+                      +..+.
+T Consensus        76 ~~~i~   80 (191)
+T 2GF5_A           76 LRRVD   80 (191)
+T ss_pred             HHHHH
+Confidence            88754
+
+
+No 27
+>4IZ7_B Mitogen-activated protein kinase 1 (E.C.2.7.11.24); MAP Kinase, Death effector domain; 1.8A {Homo sapiens}
+Probab=94.75  E-value=0.0045  Score=40.95  Aligned_cols=75  Identities=15%  Similarity=0.113  Sum_probs=55.4  Template_Neff=7.400
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYY-LESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Y-ge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=++|+.++++.+|+.+.+.        ||...+++. +..++...|.+.. =....+..-..+++.|++.+++
+T Consensus         6 r~lL~~I~~~L~~~dl~~LKfl~~~~--------i~~~~le~i~s~~~lf~~LEk~~~ls~~n~~~L~~ll~~i~r~dL~   77 (97)
+T 4IZ7_B            6 GTLLQDLTNNITLEDLEQLKSACKED--------IPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLL   77 (97)
+T ss_pred             HHHHHHHHhCCCHHHHHHHHHHhccc--------CCHHHHhhcCcHHHHHHHHHHCCCCCcchhHHHHHHHHHcCcHHHH
+Confidence            45677777889999999999988763        566666665 4677777777643 2334666777899999998998
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      ..+.+
+T Consensus        78 ~~v~~   82 (97)
+T 4IZ7_B           78 TMVVD   82 (97)
+T ss_pred             HHHHH
+Confidence            87754
+
+
+No 28
+>6P6B_A Astrocytic phosphoprotein PEA-15; protein-protein interaction, MAP kinase, APOPTOSIS; NMR {Homo sapiens}
+Probab=94.57  E-value=0.0057  Score=39.65  Aligned_cols=75  Identities=15%  Similarity=0.113  Sum_probs=54.2  Template_Neff=7.800
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYY-LESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Y-ge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=++|+.++++.+|+.+.+.        ||...+++. ++.++...|.... =....+..-..+++.|++.+++
+T Consensus         5 r~ll~~I~~~L~~~dl~~Lkfl~~~~--------i~~~~~~~i~~~~~lf~~LE~~~~l~~~n~~~L~~ll~~i~r~dL~   76 (90)
+T 6P6B_A            5 GTLLQDLTNNITLEDLEQLKSACKED--------IPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLL   76 (90)
+T ss_pred             HHHHHHHHhCCCHHHHHHHHHHhccc--------CCHHHHhhCccHHHHHHHHHHcCCCCcchhHHHHHHHHHcCcHHHH
+Confidence            45566667788999999999988763        455556654 4777777776532 2334666777899999999998
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      ..+..
+T Consensus        77 ~~v~~   81 (90)
+T 6P6B_A           77 TMVVD   81 (90)
+T ss_pred             HHHHH
+Confidence            87654
+
+
+No 29
+>5JQE_A Sugar ABC transporter substrate-binding protein; apoptosis, HYDROLASE; 3.157A {Escherichia coli, Homo sapiens}
+Probab=94.51  E-value=0.0063  Score=49.38  Aligned_cols=73  Identities=21%  Similarity=0.251  Sum_probs=49.8  Template_Neff=9.800
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMD-AIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad-~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      |..|...-++|++++++.+|+.|.+.        +|+..++... ..++-..|....- ...-+..-.++|.+|++.+|.
+T Consensus       383 r~~l~~i~e~l~~~~~~~~~fl~~~~--------~~~~~~~~~~~~~~~~~~le~~~~l~~~~l~~l~~~~~~~~~~~l~  454 (565)
+T 5JQE_A          383 SRNLYDIGEQLDSEDLASLKFLSLDY--------IPQRKQEPIKDALMLFQRLQEKRMLEESNLSFLKELLFRINRLDLL  454 (565)
+T ss_dssp             HHHHHHHHTTCCHHHHHHHHHHGGGT--------SCSGGGSSCCSHHHHHHHHHHTTSSBTTBCHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHhhCCHHHHHHHHHHHhcc--------CCcccccchHHHHHHHHHHHHCCCCCccchHHHHHHHHhcChHHHH
+Confidence            56778888999999999999998763        4555555443 5555555554322 223455556788888888887
+
+
+Q pdb|2n1f|A       82 EQL   84 (89)
+Q Consensus        82 ~~L   84 (89)
+                      .++
+T Consensus       455 ~~~  457 (565)
+T 5JQE_A          455 ITY  457 (565)
+T ss_dssp             HHH
+T ss_pred             HHH
+Confidence            763
+
+
+No 30
+>3CL3_A ORF K13, NF-kappa-B essential modulator; Death effector domain, coiled-coil, Disease; 3.2A {Human herpesvirus 8}
+Probab=94.48  E-value=0.0065  Score=44.42  Aligned_cols=75  Identities=16%  Similarity=0.191  Sum_probs=54.3  Template_Neff=7.400
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSY-YLESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~-Yge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      +..+...=++++.++++.+|+.+++.        ||...++. ...++...|... ......+..-.++|+.|++++++.
+T Consensus       100 r~ll~~Ise~l~~~dl~~lkfl~~~~--------l~~~~~e~-~~l~lf~~lEk~~~l~~~~l~~L~~~L~~i~r~dL~~  170 (183)
+T 3CL3_A          100 QLTVLHVDGELCARDIRSLIFLSKDT--------IGSRSTPQ-TFLHWVYCMENLDLLGPTDVDALMSMLRSLSRVDLQR  170 (183)
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhhcc--------CChhHHHH-HHHHHHHHHHHCCCCCcchHHHHHHHHHHcChhHHHH
+Confidence            34455666788999999999988753        55566666 477777777663 223456777779999999999999
+
+
+Q pdb|2n1f|A       83 QLQTT   87 (89)
+Q Consensus        83 ~L~~t   87 (89)
+                      .+++-
+T Consensus       171 ~v~~y  175 (183)
+T 3CL3_A          171 QVQTL  175 (183)
+T ss_pred             HHHHH
+Confidence            87653
+
+
+No 31
+>6AGW_A Caspase-8 pro-domain (E.C.3.4.22.61); Pro-domain, HYDROLASE; 2.093A {Homo sapiens}
+Probab=94.18  E-value=0.0093  Score=43.94  Aligned_cols=74  Identities=19%  Similarity=0.204  Sum_probs=43.0  Template_Neff=7.000
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMD-AIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad-~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      |..|...=+++++++++.+|+.+++.        +|++.++... ..++...|-...- +...+.+-..+|+.|++ +++
+T Consensus       102 R~lL~~Ise~lt~edl~~lkfl~~~~--------lp~~~l~~~~t~l~l~~~lEk~~~l~~~nl~~L~~il~~i~r-dL~  172 (185)
+T 6AGW_A          102 RVMLYQISEEVSRSELRSFKFLLQEE--------ISKCKLDDDMNLLDIFIEMEKRVILGEGKLDILKRVCAQINK-SLL  172 (185)
+T ss_dssp             HHHHHHHHH----HCHHHHHHHHH-----------------CCCCCHHHHHHHHHTTSSBTTBCH----HHHHTCH-HHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhccc--------CCHHHHHhchhHHHHHHHHHHcCCCCchHHHHHHHHHHHhCH-HHH
+Confidence            45666777889999999999988753        6777777654 7778777776433 23577777799999999 998
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      ..+.+
+T Consensus       173 ~~i~~  177 (185)
+T 6AGW_A          173 KIIND  177 (185)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            87654
+
+
+No 32
+>4ZBW_A Death effector domain; Death effector domain, caspase, HYDROLASE; 2.2A {Homo sapiens}
+Probab=94.06  E-value=0.011  Score=43.48  Aligned_cols=74  Identities=18%  Similarity=0.182  Sum_probs=54.8  Template_Neff=7.500
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=+++++++++.+|+.+.+.        ||...++.. +..++...|....- ....+.+-..+++.|++ +++
+T Consensus       104 r~ll~~Is~~l~~edl~~lkfl~~~~--------i~~~~le~~~~~ldl~~~LEk~~~l~~~nl~~L~~il~~i~~-dL~  174 (190)
+T 4ZBW_A          104 RVMLYQISEEVSRSELRSFKALLQEE--------DSKCKLDDDMNLLDIFIEMEKRVILGEGKLDILKRVCAQINK-SLL  174 (190)
+T ss_dssp             HHHHHHHHHHCCHHHHHHHHHHHHHH--------CSSCCCCSSCCHHHHHHHHHHTTSCBTTBCHHHHHHHHTTCH-HHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHHhcc--------CchhhhhcCCCHHHHHHHHHHcCCCCCChHHHHHHHHHHhCH-HHH
+Confidence            45566777889999999999988753        566777765 37777777776322 23567777789999988 999
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      ..+.+
+T Consensus       175 ~~i~~  179 (190)
+T 4ZBW_A          175 KIIND  179 (190)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            88765
+
+
+No 33
+>5LDE_B Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=93.76  E-value=0.015  Score=45.81  Aligned_cols=74  Identities=16%  Similarity=0.187  Sum_probs=54.8  Template_Neff=5.600
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA~   82 (89)
+                      +..|...=++|++++++.+|+.+++.        ||+..++. +..++...|.+..- ....+..-..+|+.|++.|++.
+T Consensus       164 R~lL~~Ise~Lt~edL~~LKFLl~d~--------Ipk~~le~-~~Ldlf~~LEk~~lLs~dnl~~L~~lL~~I~R~DL~k  234 (265)
+T 5LDE_B          164 QLTVLHVDGELCARDIRSLIFLSKDT--------IGSRSTPQ-TFLHWVYCMENLDLLGPTDVDALMSMLRSLSRVDLQR  234 (265)
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhhcc--------CChHHHHH-HHHHHHHHHHHCCCCCCccHHHHHHHHHhcChHHHHH
+Confidence            45566677889999999999988763        55566666 47777777766432 3356777778999999999998
+
+
+Q pdb|2n1f|A       83 QLQT   86 (89)
+Q Consensus        83 ~L~~   86 (89)
+                      .+++
+T Consensus       235 ~I~~  238 (265)
+T 5LDE_B          235 QVQT  238 (265)
+T ss_pred             HHHH
+Confidence            8764
+
+
+No 34
+>2BBR_A Viral CASP8 and FADD-like apoptosis; VIRAL PROTEIN; 1.2A {Molluscum contagiosum virus subtype 1}
+Probab=93.72  E-value=0.015  Score=43.41  Aligned_cols=78  Identities=17%  Similarity=0.195  Sum_probs=56.6  Template_Neff=6.600
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA~   82 (89)
+                      +..|...=+++++++++.+|+.+++.     .+.+|+..++..+..++...|....- ....+..-..+|+.|++.|++.
+T Consensus        97 R~lL~~Ise~Lt~edl~~lKFll~~~-----~~~i~~~~~e~~~~ldlf~~LEk~~~ls~~nl~~L~~lL~~i~r~DL~~  171 (195)
+T 2BBR_A           97 RKLMVCVGEELDSSELRALRLFACNL-----NPSLSTALSESSRFVELVLALENVGLVSPSSVSVLADMLRTLRRLDLCQ  171 (195)
+T ss_dssp             HHHHHHHHTTCCHHHHHHHHHHHHHH-----CGGGGGGCCTTCCHHHHHHHHHHTTSCBTTBCHHHHHHHHHTTCHHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHHhcc-----cccCChhHhhhchHHHHHHHHHHCCCCCcchHHHHHHHHHhCChHHHHH
+Confidence            45566677889999999999988763     12466666766667777666665322 2356677778999999999998
+
+
+Q pdb|2n1f|A       83 QLQT   86 (89)
+Q Consensus        83 ~L~~   86 (89)
+                      .+.+
+T Consensus       172 ~I~~  175 (195)
+T 2BBR_A          172 QLVE  175 (195)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+Confidence            8764
+
+
+No 35
+>2BBZ_D Viral CASP8 and FADD-like apoptosis; death effector domain, VIRAL PROTEIN; 3.8A {Molluscum contagiosum virus subtype 1}
+Probab=93.70  E-value=0.015  Score=45.39  Aligned_cols=78  Identities=15%  Similarity=0.186  Sum_probs=58.5  Template_Neff=5.400
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYY-LESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Y-ge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      +..|.+.=++|++++++.+|+.+++.     .+.+|...++..+..++...|.... =....+.+-..+|+.|++.|++.
+T Consensus        97 R~LL~~ISe~Lt~eDL~~LKFLl~d~-----~~~lpk~~le~~~~LdlF~~LEk~~lLs~dnL~~Le~iL~~I~R~DL~k  171 (249)
+T 2BBZ_D           97 RKLMVCVGEELDSSELRALRLFACNL-----NPSLSTALSESSRFVELVLALENVGLVSPSSVSVLADMLRTLRRLDLCQ  171 (249)
+T ss_dssp             HHHHHHHTTTCCHHHHHHHHHHHTTS-----CTTSTTSCCTTCCHHHHHHHHHHHTSCSTTCCHHHHHHHTTTTCHHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHHhcc-----ccccCHHHhccccHHHHHHHHHHCCCCCCchHHHHHHHHHhCChHHHHH
+Confidence            45677777889999999999988763     2246666677666777777777643 23356777789999999999998
+
+
+Q pdb|2n1f|A       83 QLQT   86 (89)
+Q Consensus        83 ~L~~   86 (89)
+                      .+.+
+T Consensus       172 ~I~~  175 (249)
+T 2BBZ_D          172 QLVE  175 (249)
+T ss_dssp             HTHH
+T ss_pred             HHHH
+Confidence            8765
+
+
+No 36
+>4IZ5_G Mitogen-activated protein kinase 1 (E.C.2.7.11.24); MAP Kinase, Death Effector Domain; HET: ADP, SO4; 3.19A {Homo sapiens}
+Probab=93.64  E-value=0.016  Score=40.95  Aligned_cols=75  Identities=15%  Similarity=0.113  Sum_probs=50.6  Template_Neff=6.400
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYY-LESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Y-ge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=++|+.++++.+|+.+++.        ||...+++. +..++...|.+.. =....+..-.++|..|++.|+.
+T Consensus         8 r~LL~~Ise~Lt~edl~~LKFLc~d~--------i~~~~le~i~s~ldlf~~LEk~~~is~~nl~~L~elL~~i~R~DLl   79 (133)
+T 4IZ5_G            8 GTLLQDLTNNITLEDLEQLKSACKED--------IPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLL   79 (133)
+T ss_dssp             HHHHHHHHTTCCHHHHHHHHHHTCCC--------------CCCCCTHHHHHHHHTTTSCCSSCCHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhcCc--------CChhhHhhcCcHHHHHHHHHHCCCCCCCchHHHHHHHHHcCCHHHH
+Confidence            45667777889999999999988763        455556654 4677777777643 2334566667899999999998
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      .++.+
+T Consensus        80 ~kv~~   84 (133)
+T 4IZ5_G           80 TMVVD   84 (133)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            87543
+
+
+No 37
+>1A1Z_A FADD PROTEIN; APOPTOSIS, DEATH EFFECTOR DOMAIN; NMR {Homo sapiens} SCOP: a.77.1.4
+Probab=93.59  E-value=0.017  Score=38.25  Aligned_cols=75  Identities=20%  Similarity=0.193  Sum_probs=55.2  Template_Neff=6.700
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=++|+.+|++.+|+.+++.        ||.+.++.. +..++...|.+..- ....+..-.++|+.|++.|++
+T Consensus         5 r~lL~~Is~~Ls~~el~~LkFLc~d~--------i~~~~~e~i~~~l~lf~~Le~~~~l~~~nl~~L~elL~~i~R~DLl   76 (91)
+T 1A1Z_A            5 LVLLHSVSSSLSSSELTELKGLCLGR--------VGKRKLERVQSGLDLFSMLLEQNDLEPGHTELLRELLASLRRHDLL   76 (91)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTT--------TCHHHHHHCCSHHHHHHHHHHHTSCSTTCCHHHHHHHHHHTCHHHH
+T ss_pred             HHHHHHHHHhCCHHHHHHHHHHhhcc--------cChhhHHhcccHHHHHHHHHHCCCCCCCchHHHHHHHHhCCCHHHH
+Confidence            45566667889999999999988753        566666664 66777777776442 334566677899999999999
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      .++.+
+T Consensus        77 ~~v~~   81 (91)
+T 1A1Z_A           77 RRVDD   81 (91)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            88764
+
+
+No 38
+>5LDE_A Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=93.57  E-value=0.017  Score=45.40  Aligned_cols=74  Identities=16%  Similarity=0.187  Sum_probs=54.1  Template_Neff=5.600
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA~   82 (89)
+                      +..|...=++|++++++.+|+.+++.        ||+..++. +..++...|.+..- ....+..-..+|+.|++.|++.
+T Consensus       164 R~lL~~Ise~Lt~edL~~LKFLl~d~--------ipk~~le~-~~Ldlf~~LEk~~lLs~dnl~~L~~lL~~I~R~DL~k  234 (265)
+T 5LDE_A          164 QLTVLHVDGELCARDIRSLIFLSKDT--------IGSRSTPQ-TFLHWVYCMENLDLLGPTDVDALMSMLRSLSRVDLQR  234 (265)
+T ss_dssp             HHHHHHHHHHSCHHHHHHHHHHHGGG--------CCC-CCCS-SHHHHHHHHHHHTSSCSSCCHHHHHHHHTTTCHHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhhcc--------cCcccCch-hHHHHHHHHHhcCCCCCccHHHHHHHHHcCCHHHHHH
+Confidence            45566677889999999999988763        55556666 47777777766432 3356777778999999999998
+
+
+Q pdb|2n1f|A       83 QLQT   86 (89)
+Q Consensus        83 ~L~~   86 (89)
+                      .+++
+T Consensus       235 ~I~~  238 (265)
+T 5LDE_A          235 QVQT  238 (265)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+Confidence            8764
+
+
+No 39
+>1N3K_A ASTROCYTIC phosphoprotein PEA-15; DEATH EFFECTOR DOMAIN, SIX HELIX; NMR {Cricetulus griseus} SCOP: a.77.1.4
+Probab=93.22  E-value=0.023  Score=40.03  Aligned_cols=75  Identities=13%  Similarity=0.086  Sum_probs=53.8  Template_Neff=6.400
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=++|+.++++.+|+.+++.        ||...++.. +..++...|....- ...-+..-..+|..|++.|++
+T Consensus         5 r~lL~~Ise~Lt~edl~~LKFLc~d~--------i~~~~le~i~~~ldlf~~LEk~~~is~~nl~~L~elL~~i~R~DLl   76 (130)
+T 1N3K_A            5 GTLLQDLTNNITLEDLEQLKSACKED--------IPSEKSEEITTGSAWFSFLESHNKLDKDNLSYIEHIFEISRRPDLL   76 (130)
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhccc--------CCHHHHhhhhcHHHHHHHHHHCCCCCCCchHHHHHHHHHcCCHHHH
+Confidence            45667777889999999999988763        555556664 46777777776432 233555666899999999998
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      .++.+
+T Consensus        77 kkv~~   81 (130)
+T 1N3K_A           77 TMVVD   81 (130)
+T ss_pred             HHHHH
+Confidence            87553
+
+
+No 40
+>5L08_E Caspase-8 (E.C.3.4.22.61); Casp-8, filament, DED, Death domain; 4.6A {Homo sapiens}
+Probab=92.98  E-value=0.028  Score=41.05  Aligned_cols=74  Identities=20%  Similarity=0.233  Sum_probs=53.9  Template_Neff=7.600
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYY-LESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Y-ge~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|.+.=++++.++++.+|+.+++.        ||...+++. +..++...|.+.. =....+.+-..+++.|++ +++
+T Consensus       102 r~ll~~Is~~l~~~el~~lkfl~~~~--------i~~~~le~i~~~~~lf~~LE~~~~ls~~n~~~L~~~l~~i~r-dL~  172 (184)
+T 5L08_E          102 RVMLYQISEEVSRSELRSFKFLLQEE--------ISKCKLDDDMNLLDIFIEMEKRVILGEGKLDILKRVCAQINK-SLL  172 (184)
+T ss_dssp             HHHHHHHHHHSCHHHHHHHHHHHHHH--------CTTCCCCTTCCHHHHHHHHHHTTCSSTTCHHHHHHHHHTTCH-HHH
+T ss_pred             HHHHHHHHHcCCHHHHHHHHHHHHhc--------CChhhhhcCCCHHHHHHHHHHcCCCCCchHHHHHHHHHHhCH-HHH
+Confidence            45666777888999999999988753        566666665 4788888887632 233467777789999988 888
+
+
+Q pdb|2n1f|A       82 EQLQT   86 (89)
+Q Consensus        82 ~~L~~   86 (89)
+                      ..+.+
+T Consensus       173 ~~i~~  177 (184)
+T 5L08_E          173 KIIND  177 (184)
+T ss_dssp             HHHHT
+T ss_pred             HHHHH
+Confidence            77654
+
+
+No 41
+>5JQE_A Sugar ABC transporter substrate-binding protein; apoptosis, HYDROLASE; 3.157A {Escherichia coli, Homo sapiens}
+Probab=91.07  E-value=0.085  Score=43.01  Aligned_cols=73  Identities=19%  Similarity=0.196  Sum_probs=54.7  Template_Neff=9.800
+
+Q pdb|2n1f|A        5 DAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYY-LESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         5 d~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Y-ge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      ..+....+.++.++++.+|..+.+.        ||...+++. +..++...|-... =.+..+....++++.+++ +|+.
+T Consensus       482 ~l~~~i~~~~~~~~~~~lk~~~~~~--------i~~~~~~~~~~~~~~~~~le~~~~l~~~n~~~l~~~~~~~~~-~l~~  552 (565)
+T 5JQE_A          482 VMLYQISEEVSRSELRSFKGGLQEE--------ISKCKLDDDMNLLDIFIEMEKRVILGEGKLDILKRVCAQINK-SLLK  552 (565)
+T ss_dssp             HHHHHHHHTCCHHHHHHHHHTTSSS--------CCCCCCCTTCCHHHHHHHHHTTTSSBTTBCHHHHHHHHTTCT-HHHH
+T ss_pred             HHHHHHHhcCCHHHHHHHHHHhhhh--------cchhhhhcCCCHHHHHHHHHHcCCCCcchHHHHHHHHHHhcH-HHHH
+Confidence            4566677788999999999988764        566667776 4788888877733 233577777899999998 9988
+
+
+Q pdb|2n1f|A       83 QLQT   86 (89)
+Q Consensus        83 ~L~~   86 (89)
+                      .+++
+T Consensus       553 ~~~~  556 (565)
+T 5JQE_A          553 IIND  556 (565)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+Confidence            7765
+
+
+No 42
+>6AGW_A Caspase-8 pro-domain (E.C.3.4.22.61); Pro-domain, HYDROLASE; 2.093A {Homo sapiens}
+Probab=90.15  E-value=0.13  Score=38.10  Aligned_cols=73  Identities=22%  Similarity=0.259  Sum_probs=49.8  Template_Neff=7.000
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQEL   80 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dl   80 (89)
+                      .+..|...=++|+.++++.+|+.+.+.        ||...++.. +..++-..|..... ..+.+..-.++|..|++.|+
+T Consensus         3 fr~lL~~I~e~L~~~dl~~LkFLc~d~--------i~~~~~e~i~~~ldlf~~Le~~~~l~~~nl~~L~elL~~i~R~DL   74 (185)
+T 6AGW_A            3 FSRNLYDIGEQLDSEDLASLKFLSLDY--------IPQRKQEPIKDALMLFQRLQEKRMLEESNLSFLKELLFRINRLDL   74 (185)
+T ss_dssp             HHHHHHHHHHTCCHHHHHHHHHHTTTT--------SCSCCSSCCCSHHHHHHHHHTTSCB-TTBCHHHHHHHHHTTCHHH
+T ss_pred             HHHHHHHHHhcCCHHHHHHHHHHhhcc--------CChhhHHHcccHHHHHHHHHHCCCCCcCcHHHHHHHHHHhCcHHH
+Confidence            355677777899999999999988764        455555553 45666666665432 22344555688899999888
+
+
+Q pdb|2n1f|A       81 AEQ   83 (89)
+Q Consensus        81 A~~   83 (89)
+                      ...
+T Consensus        75 l~~   77 (185)
+T 6AGW_A           75 LIT   77 (185)
+T ss_dssp             HHH
+T ss_pred             HHH
+Confidence            876
+
+
+No 43
+>4ZBW_A Death effector domain; Death effector domain, caspase, HYDROLASE; 2.2A {Homo sapiens}
+Probab=89.15  E-value=0.18  Score=37.15  Aligned_cols=72  Identities=22%  Similarity=0.273  Sum_probs=48.6  Template_Neff=7.500
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...-++|+.++++.+|+.+.+.        ||...++.. ++.++-..|....- ....+..-.++|..|++.|+.
+T Consensus         6 r~lL~~I~~~L~~~d~~~LkfL~~d~--------i~~~~~e~i~~~l~lf~~Le~~~~l~~~nl~~L~elL~~i~R~dLl   77 (190)
+T 4ZBW_A            6 SRNLYDIGEQLDSEDLASLKFLSLDY--------IPQRKQEPIKDALMLFQRLQEKRMLEESNLSFLKELLFRINRLDLL   77 (190)
+T ss_dssp             HHHHHHHHHHCCHHHHHHHHHHTTTT--------SCGGGSTTCCSHHHHHHHHHHTTSSBTTBCHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhccc--------CChhhcccchHHHHHHHHHHHCCCCCcccHHHHHHHHHhcCHHHHH
+Confidence            45667777889999999999988764        555555553 35666666655332 223445556788888888887
+
+
+Q pdb|2n1f|A       82 EQ   83 (89)
+Q Consensus        82 ~~   83 (89)
+                      .+
+T Consensus        78 ~~   79 (190)
+T 4ZBW_A           78 IT   79 (190)
+T ss_dssp             HH
+T ss_pred             HH
+Confidence            76
+
+
+No 44
+>5JUL_P Apaf-1 related killer DARK; Dark, apoptosome, apotosis, AAA+ ATPase; HET: APK, DTP; 4.4A {Drosophila melanogaster}
+Probab=88.25  E-value=0.24  Score=43.36  Aligned_cols=80  Identities=10%  Similarity=-0.010  Sum_probs=50.7  Template_Neff=11.700
+
+Q pdb|2n1f|A        6 AILDALENLSGD-ELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAEQL   84 (89)
+Q Consensus         6 ~Ll~~LedL~~~-eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~~L   84 (89)
+                      .|......+.++ +++.+...|...........|+..........++.+.|...++  .|....++.|.++++.+++..+
+T Consensus        15 ~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~i~~~~~~~~~~~~l~~~l~~~~~--~~~~~~~~~l~~~~~~~l~~~l   92 (1440)
+T 5JUL_P           15 ILSVFEDAFVDNFDCKDVQDMPKSILSKEEIDHIIMSKDAVSGTLRLFWTLLSKQE--EMVQKFVEEVLRINYKFLMSPI   92 (1440)
+T ss_dssp             HTTSCCHHHHHTCCGGGCCCCCTTTSCHHHHHHHHTSSSHHHHHHHHHHHHTTSCH--HHHHHHHHHHHHSSCCTTHHHH
+T ss_pred             HHHHcHHHHHHcCChhHHHHhhHhhcCHHHHHHHhccCCHHHHHHHHHHHHHHhCH--HHHHHHHHHHHHhCHHHHHhHh
+Confidence            344444444444 4555555565543333455666555445566888888887665  5777777888888888888876
+
+
+Q pdb|2n1f|A       85 QTT   87 (89)
+Q Consensus        85 ~~t   87 (89)
+                      ...
+T Consensus        93 ~~~   95 (1440)
+T 5JUL_P           93 KTE   95 (1440)
+T ss_dssp             TTC
+T ss_pred             hhc
+Confidence            643
+
+
+No 45
+>5L08_E Caspase-8 (E.C.3.4.22.61); Casp-8, filament, DED, Death domain; 4.6A {Homo sapiens}
+Probab=87.76  E-value=0.27  Score=36.00  Aligned_cols=73  Identities=22%  Similarity=0.270  Sum_probs=49.0  Template_Neff=7.600
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQM-DAIDLTDKLVSYYL-ESYGLELTMTVLRDMGLQELA   81 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~a-d~~dl~dllv~~Yg-e~~aveVT~~vL~~in~~dlA   81 (89)
+                      +..|...=++|+.++++.+|+.+.+.        ||...++.. +..++...|....- ..+.+..-.++|..|++.|+.
+T Consensus         4 r~lL~~I~~~L~~~d~~~LkfL~~d~--------i~~~~~e~~~~~l~lf~~Le~~~~l~~~nl~~L~elL~~i~R~DLl   75 (184)
+T 5L08_E            4 SRNLYDIGEQLDSEDLASLKFLSLDY--------IPQRKQEPIKDALMLFQRLQEKRMLEESNLSFLKELLFRINRLDLL   75 (184)
+T ss_dssp             HHHHHHHHTTCCHHHHHHHHHHHTTT--------SCTTTTTTCCSHHHHHHHHHHTTSSBTTBCHHHHHHHHHTTCHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhccc--------CChhhcccchhHHHHHHHHHHCCCCCcccHHHHHHHHHhCChHHHH
+Confidence            45566777889999999999988763        445555543 45666666665432 223455566888899988887
+
+
+Q pdb|2n1f|A       82 EQL   84 (89)
+Q Consensus        82 ~~L   84 (89)
+                      ..+
+T Consensus        76 ~~~   78 (184)
+T 5L08_E           76 ITY   78 (184)
+T ss_dssp             HHT
+T ss_pred             HHH
+Confidence            763
+
+
+No 46
+>3CL3_A ORF K13, NF-kappa-B essential modulator; Death effector domain, coiled-coil, Disease; 3.2A {Human herpesvirus 8}
+Probab=86.19  E-value=0.4  Score=35.23  Aligned_cols=69  Identities=17%  Similarity=0.181  Sum_probs=45.2  Template_Neff=7.400
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      .+..|...=++|+.+++...|+.+.+.        ||...+++.+  ++-..|.+..--..  ..-.+.|..|++.|+..
+T Consensus         8 f~~lL~~I~~~L~~~e~~~LkFLC~D~--------i~~~~le~i~--~lf~~L~~~~~l~~--~~L~elL~~i~R~DLl~   75 (183)
+T 3CL3_A            8 TYEVLCEVARKLGTDDREVVLFLLNVF--------IPQPTLAQLI--GALRALKEEGRLTF--PLLAECLFRAGRRDLLR   75 (183)
+T ss_pred             HHHHHHHHHhhCCHHHHHHHHHHhccc--------CChhcHHhHH--HHHHHHHHCCCCCH--HHHHHHHHHcChHHHHH
+Confidence            355677777889999999999977764        4555555444  44444444322111  34457888899988887
+
+
+Q pdb|2n1f|A       83 Q   83 (89)
+Q Consensus        83 ~   83 (89)
+                      +
+T Consensus        76 ~   76 (183)
+T 3CL3_A           76 D   76 (183)
+T ss_pred             H
+Confidence            7
+
+
+No 47
+>5LDE_A Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=83.72  E-value=0.65  Score=36.86  Aligned_cols=69  Identities=17%  Similarity=0.181  Sum_probs=44.9  Template_Neff=5.600
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      .+..|...-++|+.+|+...|+.+.+.        ||...++...  ++-..|.+...-..  ..-.++|..|+|.||..
+T Consensus        72 fr~lL~~I~~~L~~eEl~~LKFLC~D~--------Ip~~~lE~i~--~lf~~L~~~~~L~~--~~L~ELL~~I~R~DLL~  139 (265)
+T 5LDE_A           72 TYEVLCEVARKLGTDDREVVLFLLNVF--------IPQPTLAQLI--GALRALKEEGRLTF--PLLAECLFRAGRRDLLR  139 (265)
+T ss_dssp             SHHHHHHHHHTTCHHHHHHHHHHTSCC--------CSSCCHHHHH--HHHHHHHHHTCCCH--HHHHHHHHHHTCHHHHH
+T ss_pred             HHHHHHHHHHhcCHHHHHHHHHHhcCc--------CChhhHHHHH--HHHHHHHHCCCCCH--HHHHHHHHHcChHHHHH
+Confidence            356677788899999999999977764        4444444443  44444444322111  34457888899988887
+
+
+Q pdb|2n1f|A       83 Q   83 (89)
+Q Consensus        83 ~   83 (89)
+                      +
+T Consensus       140 ~  140 (265)
+T 5LDE_A          140 D  140 (265)
+T ss_dssp             H
+T ss_pred             H
+Confidence            7
+
+
+No 48
+>5LDE_B Immunoglobulin G-binding protein G,Viral FLICE; vFLIP, NF-kB, Nemo, viral protein; HET: 6ZS; 3.38A {Streptococcus sp. group G}
+Probab=83.66  E-value=0.65  Score=36.83  Aligned_cols=69  Identities=17%  Similarity=0.181  Sum_probs=44.7  Template_Neff=5.600
+
+Q pdb|2n1f|A        3 ARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAE   82 (89)
+Q Consensus         3 ~rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~   82 (89)
+                      .+..|+..-++|+.+|+...|+.+.+.        ||...++...  ++-..|.+...-..  ..-.++|..|+|.||..
+T Consensus        72 fr~lLl~I~~~L~~eEl~~LKFLC~D~--------Ip~~~lE~i~--~lf~~L~~~~~L~~--~~L~ELL~~I~R~DLL~  139 (265)
+T 5LDE_B           72 TYEVLCEVARKLGTDDREVVLFLLNVF--------IPQPTLAQLI--GALRALKEEGRLTF--PLLAECLFRAGRRDLLR  139 (265)
+T ss_pred             HHHHHHHHHhhCCHHHHHHHHHHhccc--------CChhchhhHH--HHHHHHHHCCCCCH--HHHHHHHHHcChHHHHH
+Confidence            356677788899999999999977764        4444444433  44444443322111  34457888899988887
+
+
+Q pdb|2n1f|A       83 Q   83 (89)
+Q Consensus        83 ~   83 (89)
+                      +
+T Consensus       140 ~  140 (265)
+T 5LDE_B          140 D  140 (265)
+T ss_pred             H
+Confidence            6
+
+
+No 49
+>2BBR_A Viral CASP8 and FADD-like apoptosis; VIRAL PROTEIN; 1.2A {Molluscum contagiosum virus subtype 1}
+Probab=47.53  E-value=15  Score=27.72  Aligned_cols=66  Identities=12%  Similarity=0.028  Sum_probs=40.2  Template_Neff=6.600
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAEQ   83 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~~   83 (89)
+                      ...|...-++|+.+++...|+...+.-        |...  ..  .++-..|.+...-..  ..-.++|..|+|.|+..+
+T Consensus        10 ~~~L~~I~~~L~~~e~~~LkFLC~d~i--------~~~~--~i--~~lf~~L~~~~~l~~--~~L~elL~~i~R~DLl~~   75 (195)
+T 2BBR_A           10 LPFLRHLLEELDSHEDSLLLFLCHDAA--------PGCT--TV--TQALCSLSQQRKLTL--AALVEMLYVLQRMDLLKS   75 (195)
+T ss_dssp             HHHHHHHHTTCCHHHHHHHHHHTTTTS--------TTCC--SH--HHHHHHHHHTTCCCH--HHHHHHHHHTTCHHHHHH
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhcCcC--------CCCC--cH--HHHHHHHHhCCCCCH--HHHHHHHHHcChHHHHHH
+Confidence            456677778899999999999777652        2221  11  133333333222111  344578888999888876
+
+
+No 50
+>3OQ9_E Tumor necrosis factor receptor superfamily; APOPTOSIS, DISC, FAS, FADD; 6.8A {Mus musculus}
+Probab=41.77  E-value=22  Score=21.63  Aligned_cols=25  Identities=8%  Similarity=0.073  Sum_probs=18.7  Template_Neff=9.800
+
+Q pdb|2n1f|A       63 YGLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        63 ~aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      .++..-...|+.|++.++++.++..
+T Consensus        59 a~~~~L~~aL~~~~~~~~a~~i~~~   83 (86)
+T 3OQ9_E           59 DAYQDLIKGLKKAECRRTLDKFQDM   83 (86)
+T ss_dssp             SHHHHHHHHHHHTTCSSHHHHHHHH
+T ss_pred             chHHHHHHHHHHcCchHHHHHHHHH
+Confidence            3455556789999999999887654
+
+
+No 51
+>6AC0_A Gasdermin-A3; apoptosis, SIGNALING PROTEIN; HET: NAG; 1.449A {Homo sapiens}
+Probab=39.19  E-value=25  Score=23.69  Aligned_cols=25  Identities=28%  Similarity=0.264  Sum_probs=19.3  Template_Neff=8.200
+
+Q pdb|2n1f|A       63 YGLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        63 ~aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      ..+..-...|+.|++.++++.++..
+T Consensus        86 at~~~L~~AL~~~~~~~iae~i~~~  110 (118)
+T 6AC0_A           86 ATLQRLVEALEENELTSLAEDLLGL  110 (118)
+T ss_pred             CCHHHHHHHHHHcCCHHHHHHHHHH
+Confidence            4555566889999999999887653
+
+
+No 52
+>2BBZ_D Viral CASP8 and FADD-like apoptosis; death effector domain, VIRAL PROTEIN; 3.8A {Molluscum contagiosum virus subtype 1}
+Probab=37.16  E-value=29  Score=27.73  Aligned_cols=66  Identities=12%  Similarity=0.021  Sum_probs=39.8  Template_Neff=5.400
+
+Q pdb|2n1f|A        4 RDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAEQ   83 (89)
+Q Consensus         4 rd~Ll~~LedL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge~~aveVT~~vL~~in~~dlA~~   83 (89)
+                      ...|...-+.|+.+++...|+.+.+.-        |...  .  ..++-..|.+...-..  ..-.++|..|+|.||..+
+T Consensus        10 ~~lL~~Ise~L~~dele~LKFLC~D~I--------~~~~--~--i~~lf~~L~e~~~L~~--~fL~ELL~~I~R~DLL~~   75 (249)
+T 2BBZ_D           10 LPFLRHLLEELDSHEDSLLLFLCHDAA--------PGCT--T--VTQALCSLSQQRKLTL--AALVEMLYVLQRMDLLKS   75 (249)
+T ss_dssp             SHHHHHHHHHSCSHHHHHHHHTTSSSS--------TTCC--S--HHHHHHHHHHHTCCCH--HHHHHHHHHTTCHHHHHT
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHhcCcC--------CCCC--c--HHHHHHHHHhCCCCCH--HHHHHHHHHcChHHHHHH
+Confidence            456777778899999999999777652        2221  1  1133333333221111  344578888998888876
+
+
+No 53
+>2YQF_A Ankyrin-1; death domain, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=35.66  E-value=31  Score=22.33  Aligned_cols=24  Identities=21%  Similarity=0.318  Sum_probs=18.2  Template_Neff=9.300
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      .+..-+..|+.|++.++++.++..
+T Consensus        77 t~~~L~~aL~~~~~~d~~e~l~~~  100 (111)
+T 2YQF_A           77 NMENLYTALQSIDRGEIVNMLEGS  100 (111)
+T ss_dssp             CHHHHHHHHHHTTCCHHHHHHSCC
+T ss_pred             CHHHHHHHHHHCCCHHHHHHHHhc
+Confidence            344445789999999999987654
+
+
+No 54
+>2YVI_A Ankyrin-1; homo sapiens, death domain, monomer; 1.92A {Homo sapiens}
+Probab=35.66  E-value=31  Score=22.33  Aligned_cols=24  Identities=21%  Similarity=0.318  Sum_probs=17.2  Template_Neff=9.300
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      .+..-+..|+.|++.++++.++..
+T Consensus        77 t~~~L~~aL~~~~~~d~~e~l~~~  100 (111)
+T 2YVI_A           77 NMENLYTALQSIDRGEIVNMLEGS  100 (111)
+T ss_dssp             CHHHHHHHHHHTTCHHHHHHHC--
+T ss_pred             CHHHHHHHHHHCCCHHHHHHHHhc
+Confidence            344445789999999999987654
+
+
+No 55
+>4O6X_A Ankyrin-3; alpha helix bundle, PROTEIN BINDING; 2.103A {Homo sapiens}
+Probab=34.35  E-value=34  Score=23.30  Aligned_cols=25  Identities=12%  Similarity=0.157  Sum_probs=18.8  Template_Neff=8.000
+
+Q pdb|2n1f|A       63 YGLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        63 ~aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      ..+..-...|+.|++.++++.+++.
+T Consensus        63 at~~~L~~AL~~~~r~diae~l~~~   87 (121)
+T 4O6X_A           63 ATTDALTSVLTKINRIDIVTLLEGP   87 (121)
+T ss_dssp             CBHHHHHHHHHHTTCHHHHHHHHSG
+T ss_pred             CCHHHHHHHHHHCCCHHHHHHhhch
+Confidence            3455556789999999999887653
+
+
+No 56
+>6FX4_A E3 ubiquitin-protein ligase SMURF2 (E.C.2.3.2.26); E3 HECT ligase, Ubiquitin transfer; HET: GOL; 2.5A {Homo sapiens}
+Probab=31.19  E-value=41  Score=22.52  Aligned_cols=22  Identities=9%  Similarity=0.074  Sum_probs=15.1  Template_Neff=8.700
+
+Q pdb|2n1f|A        5 DAILDALENLSGDELKKFKMKL   26 (89)
+Q Consensus         5 d~Ll~~LedL~~~eLk~FK~kL   26 (89)
+                      ..+.+.+.+++.++.++|-...
+T Consensus        28 ~~fw~vl~~~s~~~r~~fL~F~   49 (122)
+T 6FX4_A           28 KWFWKAVEFFDEERRARLLQFV   49 (122)
+T ss_dssp             HHHHHHHHHSCHHHHHHHHHHH
+T ss_pred             HHHHHHHHhCCHHHHHHHHHHH
+Confidence            4456677888888877775544
+
+
+No 57
+>4YKC_A Malcavernin; adaptor protein; HET: MSE; 2.7A {Homo sapiens}
+Probab=30.57  E-value=43  Score=25.53  Aligned_cols=36  Identities=19%  Similarity=0.244  Sum_probs=23.6  Template_Neff=3.400
+
+Q pdb|2n1f|A       13 NLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLE   61 (89)
+Q Consensus        13 dL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge   61 (89)
+                      .|+..|+..|-..|.....             +.+..+.+..|.+-||.
+T Consensus        21 kLs~~EL~qFA~LL~~yR~-------------G~~I~eFc~~LlqLYG~   56 (164)
+T 4YKC_A           21 KLSSQEIQQFAALLHEYRN-------------GASIHEFCINLRQLYGD   56 (164)
+T ss_dssp             HSCHHHHHHHHHHHHHHHT-------------TCCHHHHHHHHHHHHCT
+T ss_pred             cCCHHHHHHHHHHHHHHhC-------------CCcHHHHHHHHHHHHcc
+Confidence            4567799999998887632             12345566666666664
+
+
+No 58
+>6FX4_C E3 ubiquitin-protein ligase SMURF2 (E.C.2.3.2.26); E3 HECT ligase, Ubiquitin transfer; HET: GOL; 2.5A {Homo sapiens}
+Probab=29.46  E-value=46  Score=22.29  Aligned_cols=22  Identities=9%  Similarity=0.074  Sum_probs=13.5  Template_Neff=8.700
+
+Q pdb|2n1f|A        5 DAILDALENLSGDELKKFKMKL   26 (89)
+Q Consensus         5 d~Ll~~LedL~~~eLk~FK~kL   26 (89)
+                      ..+.+.|.+++.++.++|-...
+T Consensus        28 ~~fw~vl~~~s~~~r~~fL~F~   49 (122)
+T 6FX4_C           28 KWFWKAVEFFDEERRARLLQFV   49 (122)
+T ss_dssp             HHHHHH--HHSCHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCHHHHHhheeeh
+Confidence            4456777888888877775544
+
+
+No 59
+>1NGR_A P75 LOW AFFINITY NEUROTROPHIN RECEPTOR; RECEPTOR, P75, INTRACELLULAR DOMAIN, NEUROTROPHIN; NMR {Rattus norvegicus} SCOP: a.77.1.2
+Probab=29.15  E-value=47  Score=19.94  Aligned_cols=22  Identities=23%  Similarity=0.382  Sum_probs=15.4  Template_Neff=10.000
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQ   85 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~   85 (89)
+                      .+..-+..|+.|++.+.++.++
+T Consensus        62 tv~~L~~~L~~~~~~~~~~~i~   83 (85)
+T 1NGR_A           62 TLDALLAALRRIQRADIVESLC   83 (85)
+T ss_dssp             BHHHHHHHHHHTTCHHHHHHHH
+T ss_pred             cHHHHHHHHHHCCcHHHHHHhc
+Confidence            3444446789999988877654
+
+
+No 60
+>6V92_D Chromatin structure-remodeling complex proteins; Chromatin remodeler, RSC, GENE REGULATION; 20.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=29.10  E-value=47  Score=25.68  Aligned_cols=31  Identities=19%  Similarity=0.291  Sum_probs=21.8  Template_Neff=3.200
+
+Q pdb|2n1f|A       37 RIPRGALLQMDAIDLTDKLVSYYLESYGLEL   67 (89)
+Q Consensus        37 ~IPrg~Le~ad~~dl~dllv~~Yge~~aveV   67 (89)
+                      -+|+.+||..+-.|.|..+...-.-+.|+++
+T Consensus        91 yVPr~QLEsLSS~DFAhYFHK~LeCe~aLq~  121 (180)
+T 6V92_D           91 YVPRQQLEALSSVDFSHHFHRTLECKAALET  121 (180)
+T ss_pred             cCCHHHHHHHhhhhHHHHHHHHhchHHHHHH
+Confidence            4788888888888888887665444445543
+
+
+No 61
+>6FYH_A E3 ubiquitin-protein ligase HUWE1 (E.C.2.3.2.26); HUWE1 HECT, Ubiquitin transfer, thioester; HET: SO4; 2.906A {Homo sapiens}
+Probab=27.20  E-value=54  Score=22.04  Aligned_cols=22  Identities=18%  Similarity=0.182  Sum_probs=14.2  Template_Neff=8.700
+
+Q pdb|2n1f|A        5 DAILDALENLSGDELKKFKMKL   26 (89)
+Q Consensus         5 d~Ll~~LedL~~~eLk~FK~kL   26 (89)
+                      ..+.+.|.+++.++.++|-...
+T Consensus        29 ~~fw~vl~~~s~~~r~~fL~F~   50 (124)
+T 6FYH_A           29 QWFWRALRSFDQADRAKFLQFV   50 (124)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCHHHHHHHcHHH
+Confidence            3456677788877776664443
+
+
+No 62
+>1WXP_A THO complex subunit 1; death domain, structural genomics, nuclear; NMR {Homo sapiens}
+Probab=26.30  E-value=57  Score=20.94  Aligned_cols=24  Identities=33%  Similarity=0.426  Sum_probs=17.8  Template_Neff=9.500
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      .+..-...|+.|++.++++.+...
+T Consensus        76 t~~~L~~aL~~~~~~~~~~~i~~~   99 (110)
+T 1WXP_A           76 TPENLINALNKSGLSDLAESLTND   99 (110)
+T ss_dssp             CHHHHHHHHHHTTCHHHHHHHHCC
+T ss_pred             CHHHHHHHHHHCCCHHHHHHHhcc
+Confidence            444455789999999998887653
+
+
+No 63
+>3EZQ_D Tumor necrosis factor receptor superfamily; Apoptosis, DISC, FAS, FADD, Membrane; HET: SO4; 2.73A {Homo sapiens}
+Probab=26.27  E-value=57  Score=22.07  Aligned_cols=25  Identities=16%  Similarity=0.183  Sum_probs=18.8  Template_Neff=8.300
+
+Q pdb|2n1f|A       63 YGLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        63 ~aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      ..+..-+..|..|++.++++.+...
+T Consensus        64 at~~~L~~aL~~~~~~~iae~i~~~   88 (122)
+T 3EZQ_D           64 ATVAHLVGALRSCQMNLVADLVQEV   88 (122)
+T ss_dssp             CCHHHHHHHHHHTTCHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHCCcHHHHHHHHHH
+Confidence            4555566889999999998887653
+
+
+No 64
+>1Y0N_A Hypothetical UPF0270 protein PA3463; MCSG, Midwest Center for Structural; HET: GOL; 2.0A {Pseudomonas aeruginosa} SCOP: d.291.1.1
+Probab=26.04  E-value=58  Score=21.83  Aligned_cols=6  Identities=50%  Similarity=0.839  Sum_probs=2.4  Template_Neff=4.400
+
+Q pdb|2n1f|A       38 IPRGAL   43 (89)
+Q Consensus        38 IPrg~L   43 (89)
+                      ||+..+
+T Consensus         5 IP~~~L   10 (78)
+T 1Y0N_A            5 IPHDLL   10 (78)
+T ss_dssp             CCGGGS
+T ss_pred             ccHHHC
+Confidence            444333
+
+
+No 65
+>5YGS_D Human TNRSF25 death domain; TNFRSF25, apoptosis, TL1A, NFkappaB; HET: MLR, SO4; 2.691A {Homo sapiens}
+Probab=25.50  E-value=60  Score=25.58  Aligned_cols=23  Identities=30%  Similarity=0.458  Sum_probs=19.4  Template_Neff=10.800
+
+Q pdb|2n1f|A       65 LELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        65 veVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      +...+..|++|+++++|++++..
+T Consensus       430 ~~~l~~~L~~~~~~~~~~~~~~~  452 (463)
+T 5YGS_D          430 LGAVYAALERMGLDGCVEDLRSR  452 (463)
+T ss_pred             HHHHHHHHHHCCChHHHHHHHHH
+Confidence            66667899999999999998764
+
+
+No 66
+>6B4F_C Nucleoporin GLE1, Nucleoporin like 2; Complex, Nuclear Pore Complex, mRNA; HET: PO4; 2.811A {Homo sapiens}
+Probab=23.75  E-value=69  Score=19.71  Aligned_cols=18  Identities=22%  Similarity=0.532  Sum_probs=13.2  Template_Neff=4.500
+
+Q pdb|2n1f|A        7 ILDALENLSGDELKKFKM   24 (89)
+Q Consensus         7 Ll~~LedL~~~eLk~FK~   24 (89)
+                      +...+++|+.+++..|+.
+T Consensus        13 ~ys~~~~L~~e~l~aFkA   30 (50)
+T 6B4F_C           13 LFTPRDKLTVEELEQFQS   30 (50)
+T ss_dssp             SSCCSTTSCHHHHHHHHS
+T ss_pred             CCCCHHHCCHHHHHHHhh
+Confidence            344667888888888873
+
+
+No 67
+>1E3Y_A FADD PROTEIN; APOPTOSIS, DEATH DOMAIN, ADAPTER MOLECULE; NMR {HOMO SAPIENS} SCOP: a.77.1.2
+Probab=23.05  E-value=72  Score=20.25  Aligned_cols=24  Identities=17%  Similarity=0.221  Sum_probs=17.6  Template_Neff=9.500
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      .+..-+..|..|++.++++.++..
+T Consensus        69 ~~~~L~~aL~~~~~~~~~~~i~~~   92 (104)
+T 1E3Y_A           69 TVAHLVGALRSCQMNLVADLVQEV   92 (104)
+T ss_dssp             SHHHHHHHHHHTTCHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHCChHHHHHHHHHH
+Confidence            455555789999999988876643
+
+
+No 68
+>3EZQ_O Tumor necrosis factor receptor superfamily; Apoptosis, DISC, FAS, FADD, Membrane; HET: SO4; 2.73A {Homo sapiens}
+Probab=22.07  E-value=78  Score=20.92  Aligned_cols=23  Identities=30%  Similarity=0.410  Sum_probs=16.5  Template_Neff=8.800
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQT   86 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~~   86 (89)
+                      .+..-...|+.|++.++++.+..
+T Consensus        68 ~~~~L~~aL~~~~~~~~a~~i~~   90 (115)
+T 3EZQ_O           68 AYDTLIKDLKKANLCTLAEKIQT   90 (115)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHCCcHHHHHHHHH
+Confidence            44455577889998888887654
+
+
+No 69
+>6B4E_C Nucleoporin GLE1, Nucleoporin NUP42; Complex, Nuclear Pore Complex, mRNA; HET: EDO, PRO; 1.75A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=21.85  E-value=79  Score=18.43  Aligned_cols=15  Identities=33%  Similarity=0.605  Sum_probs=10.4  Template_Neff=4.600
+
+Q pdb|2n1f|A       10 ALENLSGDELKKFKM   24 (89)
+Q Consensus        10 ~LedL~~~eLk~FK~   24 (89)
+                      .+++|+++++..||.
+T Consensus         6 ~~~~L~~~~l~aFkA   20 (39)
+T 6B4E_C            6 ELADLAEETLKIFRA   20 (39)
+T ss_dssp             HHHHSCHHHHHHHHS
+T ss_pred             hHHHcCHHHHHHHhc
+Confidence            345778888877764
+
+
+No 70
+>2IB1_A Death domain containing membrane protein; p45, death domain, apoptosis, p75; NMR {Mus musculus}
+Probab=21.54  E-value=81  Score=19.17  Aligned_cols=24  Identities=17%  Similarity=0.338  Sum_probs=16.8  Template_Neff=10.000
+
+Q pdb|2n1f|A       64 GLELTMTVLRDMGLQELAEQLQTT   87 (89)
+Q Consensus        64 aveVT~~vL~~in~~dlA~~L~~t   87 (89)
+                      .+..-...|+.|++.+.++.+.+.
+T Consensus        61 t~~~L~~~L~~~~~~~~~~~l~~~   84 (91)
+T 2IB1_A           61 TLRVLEDALAAIGREDVVQVLSSP   84 (91)
+T ss_pred             hHHHHHHHHHHCCcHHHHHHhcCc
+Confidence            444445678999998888877653
+
+
+No 71
+>5W87_A Probable E3 ubiquitin-protein ligase HERC6; E3 ligase, antiviral activity, TRANSFERASE-LIGASE; 2.199A {Homo sapiens}
+Probab=20.95  E-value=85  Score=21.10  Aligned_cols=22  Identities=36%  Similarity=0.410  Sum_probs=13.7  Template_Neff=8.500
+
+Q pdb|2n1f|A        5 DAILDALENLSGDELKKFKMKL   26 (89)
+Q Consensus         5 d~Ll~~LedL~~~eLk~FK~kL   26 (89)
+                      ..+.+.+..++.++.++|-...
+T Consensus        28 ~~Fw~~l~~~~~~~~~~~L~F~   49 (121)
+T 5W87_A           28 QLFWKAFHKLTLDEKKKFLFFL   49 (121)
+T ss_dssp             HHHHHHHTTSCHHHHHHHHHHH
+T ss_pred             HHHHHHHHhCCHHHHHHHHHHH
+Confidence            3455667777777776664433
+
+
+No 72
+>4FQN_A Malcavernin; helical domain, Harmonin-homology domain, Protein-protein; 1.9A {Homo sapiens}
+Probab=20.23  E-value=90  Score=21.05  Aligned_cols=37  Identities=19%  Similarity=0.237  Sum_probs=24.3  Template_Neff=6.700
+
+Q pdb|2n1f|A       12 ENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLE   61 (89)
+Q Consensus        12 edL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge   61 (89)
+                      ..|+.++++.|-..|....-             ..+..+++..+.+-|++
+T Consensus        27 ~~Ls~~ey~~F~~~L~~Yk~-------------~~~~~~l~~~l~~Lf~~   63 (98)
+T 4FQN_A           27 TKLSSQEIQQFAALLHEYRN-------------GASIHEFCINLRQLYGD   63 (98)
+T ss_dssp             TTSCHHHHHHHHHHHHHHHT-------------TCCHHHHHHHHHHHHCG
+T ss_pred             HhCCHHHHHHHHHHHHHHHC-------------CCCHHHHHHHHHHHHch
+Confidence            34778888888888876521             12446667777776764
+
+
+No 73
+>4FQN_D Malcavernin; helical domain, Harmonin-homology domain, Protein-protein; 1.9A {Homo sapiens}
+Probab=20.23  E-value=90  Score=21.05  Aligned_cols=37  Identities=19%  Similarity=0.237  Sum_probs=24.3  Template_Neff=6.700
+
+Q pdb|2n1f|A       12 ENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLE   61 (89)
+Q Consensus        12 edL~~~eLk~FK~kL~~~~~~eG~~~IPrg~Le~ad~~dl~dllv~~Yge   61 (89)
+                      ..|+.++++.|-..|....-             ..+..+++..+.+-|++
+T Consensus        27 ~~Ls~~ey~~F~~~L~~Yk~-------------~~~~~~l~~~l~~Lf~~   63 (98)
+T 4FQN_D           27 TKLSSQEIQQFAALLHEYRN-------------GASIHEFCINLRQLYGD   63 (98)
+T ss_dssp             GTSCHHHHHHHHHHHHHHHT-------------TCCHHHHHHHHHHHHCG
+T ss_pred             HhCCHHHHHHHHHHHHHHHC-------------CCCHHHHHHHHHHHHch
+Confidence            34778888888888876521             12446667777776764
+
+
