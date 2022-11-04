@@ -1,5 +1,19 @@
 # DeepMainMast
 
+## Dependencies
+
+Use the requirements.txt file (deepaminmast/requirements.txt) and install packages using pip as follows
+
+```
+pip install -r requirements.txt
+```
+
+Then install BioTEMPy package using pip. Installing it separately is crucial because it has dependecy conflicts with bio package. Hence after installing all packages
+using requirements.txt, we then separately install BioTEMPy using pip as follows
+
+```
+pip install BioTEMPy
+```
 
 ## Input structure
 
