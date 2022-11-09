@@ -15,7 +15,7 @@ do
     new_map=${name}.mrc
     if [ -e $model ] && [ ! -e $new_file ];then
         hostname > $new_file
-        bin/btpdb2mrc.py -R $reso $model $new_map 
+        python3 bin/btpdb2mrc.py $reso $model $new_map 
         $PG -a $data -b $new_map -t 0.001 -T 10.0 -c 4 -g 8.0 -e -s 2.0 > $new_file
     fi
 done

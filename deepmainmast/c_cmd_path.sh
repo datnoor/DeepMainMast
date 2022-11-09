@@ -1,4 +1,5 @@
 ID=$1
+TIME=$2
 
 PG=bin/MainmastC_Unet_node
 ASB=bin/UnetPath.py
@@ -16,7 +17,7 @@ do
 		if [ ! -e $log ];then
 		hostname > $log
 		# python $ASB $in --Nchain $Nchain --OutCSV $out --SecTrace 180 > $log
-		python $ASB $in --Nchain $Nchain --OutCSV $out --SecTrace 60 --SecAssemble 60 > $log
+		python $ASB $in --Nchain $Nchain --OutCSV $out --SecTrace $TIME --SecAssemble $TIME > $log
 		fi
 		
 	done

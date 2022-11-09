@@ -1,4 +1,5 @@
 ID=$1
+TIME=$2
 
 PG_ASB=bin/MainmastC_UnetAssembleMtx
 PG=bin/Assemble_Iter.py #combine all models
@@ -80,19 +81,19 @@ if [ ! -e $OUTF/comb.st ];then
 	fi
 
 	if [ ! -e $comb_model1 ];then
-		python3 $PG $mtxfile1 --Nstock 10000 --OutPath $comb_model1 --SecAssemble 300 --Ncpu 4
+		python3 $PG $mtxfile1 --Nstock 10000 --OutPath $comb_model1 --SecAssemble $TIME --Ncpu 2
 		echo "DEBUG 1"
 	fi
 	if [ ! -e $comb_model2 ];then
-		python3 $PG $mtxfile2 --Nstock 10000 --OutPath $comb_model2 --SecAssemble 300 --Ncpu 4
+		python3 $PG $mtxfile2 --Nstock 10000 --OutPath $comb_model2 --SecAssemble $TIME --Ncpu 2
 		echo "DEBUG 2"
 	fi
 	if [ -e $OUTF/VESPER_MODELs ];then
 		if [ ! -e $comb_model3 ];then
-			python3 $PG $mtxfile3 --Nstock 10000 --OutPath $comb_model3 --SecAssemble 300 --Ncpu 4
+			python3 $PG $mtxfile3 --Nstock 10000 --OutPath $comb_model3 --SecAssemble $TIME --Ncpu 2
 		fi
 		if [ ! -e $comb_model4 ];then
-			python3 $PG $mtxfile4 --Nstock 10000 --OutPath $comb_model4 --SecAssemble 300 --Ncpu 4
+			python3 $PG $mtxfile4 --Nstock 10000 --OutPath $comb_model4 --SecAssemble $TIME --Ncpu 2
 		fi
 	else
 		echo "Running without AF model output"

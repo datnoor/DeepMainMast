@@ -1,8 +1,9 @@
 ID=$1
+TIME=$2
 
 PG=bin/MainmastC_UnetAF2
 ASB=bin/Assemble_Iter.py
-Ncpu=4
+Ncpu=2
 
 AF=input/$ID/afmodel/af2_model.pdb
 OUTF=output/$ID
@@ -28,7 +29,7 @@ do
 			if [ ! -e $OUTF/$OUT ];then
 			hostname > $OUTF/$OUT
 			$PG -i $UnetDir -s $SEQ -G -N $OUTF/$in -l 9 -r 1.5 -c $Ncpu -T $Nali > $OUTF/$INP
-			python $ASB --Nstock 10000 --Niter 3 $OUTF/$INP --OutPath $OUTF/$OUT --Ncpu $Ncpu --SecAssemble 100
+			python $ASB --Nstock 10000 --Niter 3 $OUTF/$INP --OutPath $OUTF/$OUT --Ncpu $Ncpu --SecAssemble $TIME
 			fi
 		done
 		#with AF2
@@ -43,7 +44,7 @@ do
 					if [ ! -e $OUTF/$OUT ];then
 					hostname > $OUTF/$OUT
 					$PG -i $UnetDir -s $SEQ -G -N $OUTF/$in -l 9 -r 1.5 -c $Ncpu -T $Nali -R $Rsize -A $AF > $OUTF/$INP
-					python $ASB --Nstock 10000 --Niter 3 $OUTF/$INP --OutPath $OUTF/$OUT --Ncpu $Ncpu --SecAssemble 100
+					python $ASB --Nstock 10000 --Niter 3 $OUTF/$INP --OutPath $OUTF/$OUT --Ncpu $Ncpu --SecAssemble $TIME
 					fi
 				done
 			done
