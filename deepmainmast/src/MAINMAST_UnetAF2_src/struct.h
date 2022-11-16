@@ -104,10 +104,9 @@ typedef struct{
 
 typedef struct{
 	char filename[LIN],pfilename[LIN],sfilename[LIN];
-	char Afilename[LIN];
-	char Cfilename[LIN];
+	char Afilename[LIN],Nfilename[LIN];
 	char dirname[LIN];
-	bool Amode, DummyMode,Cmode;
+	bool Amode, DummyMode;
 	double map_t;
 	int Nthr;
 	double dreso,LocalR;
@@ -116,8 +115,8 @@ typedef struct{
 	int Nround,Ntabu,Nnb,Nsim,Nbeam;
 	int Mode;
 	double Allow;
-	float Pcut, Wp,Wd,Wca;
-	int FragLen;
+	float Pcut, Wp,Wd,Wca,Weight;
+	int FragLen,Niter,MinReg;
 	float zcut,RMSD;
 } CMD;
 
@@ -159,3 +158,4 @@ typedef struct{
  int *ss,*seq,cid;
  float Pss[100][3];
 } SEQFG;
+

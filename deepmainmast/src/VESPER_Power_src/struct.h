@@ -1,6 +1,6 @@
 #pragma once
 
-#define VER 4.1
+#define VER 0.50
 #define PI 3.141592
 #define ATOM 50000
 #define RES 5000
@@ -11,6 +11,7 @@
 //grid
 #define GRINO 20000
 
+#define OUTSIDE -999.999
 
 /*def �δĶ�����*/
 #define INC 15/*ligand��ž���ٿ�*/
@@ -56,7 +57,7 @@
 int FINAL_ATNo;
 int FINAL_RENo;
 typedef struct{
-	        //double x,y,z;
+	        //float x,y,z;
 	        float x,y,z;
 }COORD;
 
@@ -90,41 +91,39 @@ typedef struct{
         int NumOfReal;
         int RealResNum[RES];
         //New 2012.10.29-----------------
-        double **xyz;
+        float **xyz;
         int *TypeAtomId,*TypeResId;
         char **TypeAtom, **TypeRes, *Chain,**RealNum;
         int *AtomOnRes, *SosuiAtom, *ConservedAtom;
         int *ResOnAtom;
         int *ResNum,*AtomNum;
-        double MaxXyz[3],MinXyz[3];
+        float MaxXyz[3],MinXyz[3];
 	float *DepthAtom,*DepthRes;
-	float *Bfac;
 } PDB;
 
 
 typedef struct{
-	char filename[LIN],pfilename[LIN],sfilename[LIN];
-	char Afilename[LIN];
-	char Cfilename[LIN];
-	char dirname[LIN];
-	bool Amode, DummyMode,Cmode;
-	double map_t;
+	char filename[LIN];
+	char file1[LIN],file2[LIN];
+	float map_t;
 	int Nthr;
-	double dreso,LocalR;
-	double MaxShift,MergeDist;
-	double Filter,Dkeep;
+	float dreso,LocalR;
+	float MaxShift,MergeDist;
+	float Filter,Dkeep;
 	int Nround,Ntabu,Nnb,Nsim,Nbeam;
-	int Mode;
-	double Allow;
-	float Pcut, Wp,Wd,Wca;
-	int FragLen;
-	float zcut,RMSD;
+	int Mode,Amode;
+	float Allow;
+	float th1,th2;
+	float ssize,ang;
+	int TopN;
+	bool ShowGrid;
+	bool Emode,SimpleMode;
 } CMD;
 
 /*
 typedef struct{
 	char filename[LIN];
-	double map_t;
+	float map_t;
 	int Nthreads;
 	int xdim,ydim,zdim;
 	int mx,my,mz;
@@ -141,21 +140,8 @@ typedef struct{
 } MRC;
 */
 
-//Mainmast Model
-typedef struct{
-        //char filename[LIN];
-        float **xyz;
-        double *b;//b-factor
-        double *dis;//distance to the next coordinate.
-        int NumOfCd;
-        double sco,z,shake,zshake;//score
-        int pos;//position
-} MODEL;
 
 
-typedef struct{
- int pos;//position
- int l;//length
- int *ss,*seq,cid;
- float Pss[100][3];
-} SEQFG;
+
+
+

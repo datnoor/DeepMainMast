@@ -1,6 +1,6 @@
 #pragma once
 
-#define VER 4.1
+#define VER 4.01
 #define PI 3.141592
 #define ATOM 50000
 #define RES 5000
@@ -104,10 +104,9 @@ typedef struct{
 
 typedef struct{
 	char filename[LIN],pfilename[LIN],sfilename[LIN];
-	char Afilename[LIN];
-	char Cfilename[LIN];
 	char dirname[LIN];
-	bool Amode, DummyMode,Cmode;
+	char Afilename[LIN];
+	bool Amode, DummyMode;
 	double map_t;
 	int Nthr;
 	double dreso,LocalR;
@@ -159,3 +158,4 @@ typedef struct{
  int *ss,*seq,cid;
  float Pss[100][3];
 } SEQFG;
+
