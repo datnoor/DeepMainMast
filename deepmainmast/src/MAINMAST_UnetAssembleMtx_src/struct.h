@@ -1,5 +1,4 @@
-#pragma once
-#define VER 3.1
+#define VER 4.1
 #define PI 3.141592
 #define ATOM 50000
 #define RES 5000
@@ -104,8 +103,9 @@ typedef struct{
 typedef struct{
 	char filename[LIN],pfilename[LIN],sfilename[LIN];
 	char Afilename[LIN];
+	char Cfilename[LIN];
 	char dirname[LIN];
-	bool Amode, DummyMode;
+	bool Amode, DummyMode,Cmode;
 	double map_t;
 	int Nthr;
 	double dreso,LocalR;
