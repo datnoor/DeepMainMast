@@ -1,6 +1,4 @@
 #pragma once
-
-
 #define VER 3.1
 #define PI 3.141592
 #define ATOM 50000

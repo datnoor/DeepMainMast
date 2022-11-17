@@ -1,6 +1,5 @@
 #pragma once
-
-#define VER 4.1
+#define VER 3.1
 #define PI 3.141592
 #define ATOM 50000
 #define RES 5000
@@ -104,7 +103,7 @@ typedef struct{
 
 typedef struct{
 	char filename[LIN],pfilename[LIN],sfilename[LIN];
-	char Afilename[LIN],Nfilename[LIN];
+	char Afilename[LIN];
 	char dirname[LIN];
 	bool Amode, DummyMode;
 	double map_t;
@@ -115,8 +114,8 @@ typedef struct{
 	int Nround,Ntabu,Nnb,Nsim,Nbeam;
 	int Mode;
 	double Allow;
-	float Pcut, Wp,Wd,Wca,Weight;
-	int FragLen,Niter,MinReg;
+	float Pcut, Wp,Wd,Wca;
+	int FragLen;
 	float zcut,RMSD;
 } CMD;
 
