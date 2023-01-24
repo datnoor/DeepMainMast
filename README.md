@@ -1,5 +1,7 @@
 # DeepMainMast
 
+Following details are outdated and will be updated soon.
+
 ## Dependencies
 
 Use the requirements.txt file (deepaminmast/requirements.txt) and install packages using pip as follows
