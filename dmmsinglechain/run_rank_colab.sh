@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$1
-MODS=$4
+MODS=$2
 
 ./j_cmd_daq_cm.sh $ID
 

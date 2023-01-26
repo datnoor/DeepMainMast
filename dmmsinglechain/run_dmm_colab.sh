@@ -21,7 +21,7 @@ wait
 ./d_cmd_modeling.sh $ID $TIME &> /content/output2.log &
 wait
 
-if [[ "$use_AF" -eq 1 ]]; then
+if [[ "$USE_AF" -eq 1 ]]; then
     ./e_cmd_vesper_setup.sh $ID &>> /content/output
 
     ./f_cmd_vesper.sh $ID &>> /content/output
