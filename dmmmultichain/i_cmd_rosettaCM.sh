@@ -1,6 +1,6 @@
 ID=$1
 MODS=$2
-RDIR=dir=$(pwd)
+RDIR=$(pwd)
 
 dname=$RDIR/results/$ID/CM_DMonly/
 

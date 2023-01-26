@@ -1,6 +1,6 @@
 ID=$1
 MODS=$2
-RDIR=dir=$(pwd)
+RDIR=$(pwd)
 
 chmod -R 777 $RDIR/results/partial_thread.static.linuxgccrelease
 chmod -R 777 $RDIR/results/rosetta_scripts.static.linuxgccrelease
