@@ -18,7 +18,7 @@ if [ ! -e ${dname}.st ];then
 	echo $dname
 	# A_setup
 	cd $dname
-	/content/DeepMainMast/dmmsinglechain/results/$ID/partial_thread.static.linuxgccrelease \
+	/content/DeepMainMast/dmmsinglechain/results/partial_thread.static.linuxgccrelease \
 		-database bin/ros_database/ \
 		-in::file::fasta $dname/seq.fasta \
 		-in::file::alignment $dname/alignment.txt \
@@ -26,7 +26,7 @@ if [ ! -e ${dname}.st ];then
 		-out:path:all $dname
 
 	if [ -e $dname/1tmpA_thread.pdb ];then
-		/content/DeepMainMast/dmmsinglechain/results/$ID/rosetta_scripts.static.linuxgccrelease \
+		/content/DeepMainMast/dmmsinglechain/results/rosetta_scripts.static.linuxgccrelease \
 			-database bin/ros_database/ \
 			-in:file:fasta $dname/seq.fasta \
 			-parser:protocol $dname/C_rosettaCM.xml \
@@ -55,7 +55,7 @@ if [ -e results/$ID/VESPER_MODELs ]; then
 
 			# A_setup
 			cd $dname
-			/content/DeepMainMast/dmmsinglechain/results/$ID/partial_thread.static.linuxgccrelease \
+			/content/DeepMainMast/dmmsinglechain/results/partial_thread.static.linuxgccrelease \
 				-database bin/ros_database/ \
 				-in::file::fasta $dname/seq.fasta \
 				-in::file::alignment $dname/alignment.txt \
@@ -63,7 +63,7 @@ if [ -e results/$ID/VESPER_MODELs ]; then
 				-out:path:all $dname
 
 			if [ -e $dname/1tmpA_thread.pdb ];then
-				/content/DeepMainMast/dmmsinglechain/results/$ID/rosetta_scripts.static.linuxgccrelease \
+				/content/DeepMainMast/dmmsinglechain/results/rosetta_scripts.static.linuxgccrelease \
 					-database bin/ros_database/ \
 					-in:file:fasta $dname/seq.fasta \
 					-parser:protocol $dname/C_rosettaCM.xml \
