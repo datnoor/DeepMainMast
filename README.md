@@ -1,10 +1,10 @@
 # DeepMainMast
 
-Following details are outdated and will be updated soon.
+This repository contains the code implementation of "paper name and link". There are two folders i) dmmsinglechain supportd single chain protein maps ii) dmmmultichain supports multi chain protein maps.
 
 ## Dependencies
 
-Use the requirements.txt file (deepaminmast/requirements.txt) and install packages using pip as follows
+Use the requirements.txt file and install packages using pip as follows. There are same requirements for both single chain and multi-chain.
 
 ```
 pip install -r requirements.txt
@@ -17,9 +17,13 @@ using requirements.txt, we then separately install BioTEMPy using pip as follows
 pip install BioTEMPy
 ```
 
-## Input structure
+## How to run
 
-Put your inputs in "input" folder in deepmainmast directory.
+First choose which pipeline you want to execute, Single chain or Multi-chain. Follow the details for each pipeline. 
+
+## DeepMainMast for Single Chain protein maps
+
+Put your inputs in "data" folder in deepmainmast directory.
 
 The input folder must include the following. Optionally required inputs are flagged optional
 
