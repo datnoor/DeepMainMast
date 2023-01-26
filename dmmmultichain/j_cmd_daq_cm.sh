@@ -1,9 +1,9 @@
 ID=$1
 
 PG_DAQ=bin/DAQscore_Unet
-DATA=/results/$ID/unet
+DATA=results/$ID/unet
 
-for model in /results/$ID/CM_*/S_*.pdb
+for model in results/$ID/CM_*/S_*.pdb
 do
 	name=`echo $model|sed -e s/.pdb$//`
 	echo $name

@@ -1,15 +1,11 @@
 ID=$1
 MODS=$2
+RDIR=dir=$(pwd)
 
-PG=bin/RosettaCM.py
+dname=$RDIR/results/$ID/CM_DMonly/
 
-DATA=results/$ID/input.map
-seq=results/$ID/seq.fasta
-
-dname=results/$ID/CM_DMonly/
-
-chmod -R 777 results/partial_thread.static.linuxgccrelease
-chmod -R 777 results/rosetta_scripts.static.linuxgccrelease
+chmod -R 777 $RDIR/results/partial_thread.static.linuxgccrelease
+chmod -R 777 $RDIR/results/rosetta_scripts.static.linuxgccrelease
 
 echo "rosetta start"
 
@@ -18,16 +14,16 @@ if [ ! -e ${dname}.st ];then
 	echo $dname
 	# A_setup
 	cd $dname
-	/content/DeepMainMast/dmmsinglechain/results/partial_thread.static.linuxgccrelease \
-		-database bin/ros_database/ \
+	$RDIR/results/partial_thread.static.linuxgccrelease \
+		-database $RDIR/bin/ros_database/ \
 		-in::file::fasta $dname/seq.fasta \
 		-in::file::alignment $dname/alignment.txt \
 		-in::file::template_pdb $dname/1tmpA.pdb \
 		-out:path:all $dname
 
 	if [ -e $dname/1tmpA_thread.pdb ];then
-		/content/DeepMainMast/dmmsinglechain/results/rosetta_scripts.static.linuxgccrelease \
-			-database bin/ros_database/ \
+		$RDIR/results/rosetta_scripts.static.linuxgccrelease \
+			-database $RDIR/bin/ros_database/ \
 			-in:file:fasta $dname/seq.fasta \
 			-parser:protocol $dname/C_rosettaCM.xml \
 			-nstruct $MODS \
@@ -48,23 +44,23 @@ echo "rosetta next"
 if [ -e results/$ID/VESPER_MODELs ]; then
 	for tag in AFonly VESPER all
 	do
-		dname=results/$ID/CM_$tag/
+		dname=$RDIR/results/$ID/CM_$tag/
 		if [ ! -e ${dname}.st ];then
 			echo "Starting"
 			echo $dname
 
 			# A_setup
 			cd $dname
-			/content/DeepMainMast/dmmsinglechain/results/partial_thread.static.linuxgccrelease \
-				-database bin/ros_database/ \
+			$RDIR/results/partial_thread.static.linuxgccrelease \
+				-database $RDIR/bin/ros_database/ \
 				-in::file::fasta $dname/seq.fasta \
 				-in::file::alignment $dname/alignment.txt \
 				-in::file::template_pdb $dname/1tmpA.pdb \
 				-out:path:all $dname
 
 			if [ -e $dname/1tmpA_thread.pdb ];then
-				/content/DeepMainMast/dmmsinglechain/results/rosetta_scripts.static.linuxgccrelease \
-					-database bin/ros_database/ \
+				$RDIR/results/rosetta_scripts.static.linuxgccrelease \
+					-database $RDIR/bin/ros_database/ \
 					-in:file:fasta $dname/seq.fasta \
 					-parser:protocol $dname/C_rosettaCM.xml \
 					-nstruct $MODS \

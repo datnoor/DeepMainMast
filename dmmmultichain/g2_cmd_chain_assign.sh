@@ -4,9 +4,9 @@ TIME=$2
 PG_ASB=bin/MainmastC_UnetChainAssign
 PG=bin/Assemble_ReChainID.py #combine all models
 
-DATA=/results/$ID/unet
-OUTF=/results/$ID/
-SEQ=/results/$ID/seq.fasta
+DATA=results/$ID/unet
+OUTF=results/$ID/
+SEQ=results/$ID/seq.fasta
 
 Ncpu=4
 Filter=-10.0

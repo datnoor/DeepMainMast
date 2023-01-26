@@ -3,9 +3,9 @@ TIME=$2
 
 PG_ASB=bin/MainmastC_UnetAssembleMtx
 PG=bin/Assemble_Iter.py #combine all models
-DATA=/results/$ID/unet
-OUTF=/results/$ID/
-SEQ=/results/$ID/seq.fasta
+DATA=results/$ID/unet
+OUTF=results/$ID/
+SEQ=results/$ID/seq.fasta
 
 #Make input files
 modelfile1=$OUTF/MODELs_all.pdb

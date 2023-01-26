@@ -1,12 +1,12 @@
 ID=$1
 TIME=$2
 
-PG_ASB=/code/bin/MainmastC_UnetChainAssign
-PG=/code/bin/Assemble_ReChainID.py #combine all models
+PG_ASB=bin/MainmastC_UnetChainAssign
+PG=bin/Assemble_ReChainID.py #combine all models
 
-DATA=/results/$ID/unet
-OUTF=/results/$ID/
-SEQ=/results/$ID/seq.fasta
+DATA=results/$ID/unet
+OUTF=results/$ID/
+SEQ=results/$ID/seq.fasta
 
 Ncpu=4
 Filter=-10.0

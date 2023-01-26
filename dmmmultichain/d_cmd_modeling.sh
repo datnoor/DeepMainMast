@@ -5,16 +5,16 @@ PG=bin/MainmastC_UnetAF2
 ASB=bin/Assemble_Iter.py
 Ncpu=2
 
-AF=/results/$ID/af2_model.pdb
-OUTF=/results/$ID
+AF=results/$ID/af2_model.pdb
+OUTF=results/$ID
 
 for p in 0.3 0.4 0.5
 do
 	for Nchain in 1 5 10
 	do
 		in=PATH_p${p}Nch${Nchain}.csv
-		SEQ=/results/$ID/seq.fasta
-		UnetDir=/results/$ID/unet
+		SEQ=results/$ID/seq.fasta
+		UnetDir=results/$ID/unet
 
 		if [ ! -e $OUTF/$in ]||[ ! -e $SEQ ]||[ ! -e $UnetDir ];then
 			echo "Missing....$1 $in"

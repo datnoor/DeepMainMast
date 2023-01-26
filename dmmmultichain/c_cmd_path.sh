@@ -4,7 +4,7 @@ TIME=$2
 PG=bin/MainmastC_Unet_node
 ASB=bin/UnetPath.py
 
-OUTF=/results/$ID/
+OUTF=results/$ID/
 
 for p in 0.3 0.4 0.5
 do

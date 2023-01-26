@@ -6,9 +6,9 @@ PG2=bin/RotateVesper.py
 reso=5.0
 
 echo $ID
-data=/results/$ID/input.map
+data=results/$ID/input.map
 
-for model in /results/$ID/CM_*/S_*.pdb
+for model in results/$ID/CM_*/S_*.pdb
 do
     name=`echo $model|sed -e s/.pdb$//`
     new_file=${name}.dot

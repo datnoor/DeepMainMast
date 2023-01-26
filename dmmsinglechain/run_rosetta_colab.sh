@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$1
-MODS=$4
+MODS=$2
 
 
 ./h_cmd_rosettaCM_setup.sh $ID
