@@ -41,7 +41,7 @@ fi
 
 echo "rosetta next"
 
-if [ -e results/$ID/VESPER_MODELs ]; then
+if [ -e $RDIR/results/$ID/VESPER_MODELs ]; then
 	for tag in AFonly VESPER all
 	do
 		dname=$RDIR/results/$ID/CM_$tag/
