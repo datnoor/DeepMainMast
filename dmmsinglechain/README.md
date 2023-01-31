@@ -50,5 +50,5 @@ bash run.sh
 #### 4. Get Output of DeepMainMast 
 Your results will be generated under results/\<your job name\> directory. Under this directory you will find directory called ranked (results/\<your job name\>/ranked), which has all the models ranked according to their DAQ and DOT scores. The ranks are given based on the higher score that is Rank 1 model has the highest score.
 
-The ranked folder .pdb files are actually the .pdb files ["S_singletgt_0001.pdb", "S_singletgt_0002.pdb", "S_singletgt_0003.pdb", "S_singletgt_0004.pdb", "S_singletgt_0005.pdb"] from these 4 folders ["CM_all", "CM_VESPER", "CM_DMonly", "CM_AFonly"] under the /result/\<your job name\>. 
+The ranked folder .pdb files are actually the .pdb files ["S_singletgt_0001.pdb", "S_singletgt_0002.pdb", "S_singletgt_0003.pdb", "S_singletgt_0004.pdb", "S_singletgt_0005.pdb"] from these 4 folders ["CM_all", "CM_VESPER", "CM_DMonly", "CM_AFonly"] under the results/\<your job name\>/ranked folder. 
 
