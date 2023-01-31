@@ -16,7 +16,8 @@ if [ ! -e results/$ID/vesper_R5.0.out ];then
 	do
 		map=results/$ID/af2_model_R${reso}.mrc
 		if [ -e $map ];then
-			$PG -a $data -b $map -t 0.001 -T 10.0 -c 4 -g 8.0 -s 1.0 > results/$ID/vesper_R${reso}.out
+			# $PG -a $data -b $map -t 0.001 -T 10.0 -c 4 -g 8.0 -s 1.0 > results/$ID/vesper_R${reso}.out
+			$PG -a $data -b $map -t 0.001 -T 10.0 -c 1 -g 8.0 -s 1.0 > results/$ID/vesper_R${reso}.out
 			python3 $PG2 results/$ID/vesper_R${reso}.out $AF --OutPath $opdir/R${reso}_
 		fi
 
