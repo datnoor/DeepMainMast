@@ -19,6 +19,6 @@ pip install BioTEMPy
 
 ## How to run
 
-First choose which pipeline you want to execute, Single chain or Multi-chain. Follow the details for each pipeline. And then read the readme files inside the respective folders for next steps.
+First choose which pipeline you want to execute, Single chain or Multi-chain. Follow the details for each pipeline by reading the readme files inside the respective folders for next steps.
 
 
