@@ -7,7 +7,7 @@ OBJECTS = $(COM)
 HEADER = struct.h func.h mrc.h
 PG = VESPER_Power
 
-OPT = -O3 -ffast-math -funroll-loops -fopenmp
+OPT = -O3 -msse4.2 -msse -msse2 -msse3 -mmmx -ftree-vectorize -ftree-vectorizer-verbose=3 -ffast-math -march=native -funroll-loops -fopenmp
 
 $(PG) : main.c $(OBJECTS) $(HEADER) $(COM)
 	$(CC) -o $(PG) main.c $(OBJECTS) -lm $(OPT) -lfftw3_threads -lfftw3f
