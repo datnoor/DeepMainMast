@@ -18,7 +18,7 @@ do
 			-in::file::template_pdb $dname/1tmpA.pdb
 
 		if [ -e 1tmpA_thread.pdb ];then
-			/results/rosetta_scripts.static.linuxgccrelease \
+			$RDIR/results/rosetta_scripts.static.linuxgccrelease \
 				-database $RDIR/bin/ros_database/ \
 				-in:file:fasta $dname/seq.fasta \
 				-parser:protocol $dname/C_rosettaCM.xml \
