@@ -17,8 +17,22 @@ using requirements.txt, we then separately install BioTEMPy using pip as follows
 pip install BioTEMPy
 ```
 
-## How to run
+## How to run?
 
-First choose which pipeline you want to execute, Single chain or Multi-chain. Follow the details for each pipeline by reading the readme files inside the respective folders for next steps.
+First please choose a pipeline that will be the most suitable for your EM Map. There are two pipelines 1) Single chain and 2) Multi-chain. 
 
+Next, follow the details for each pipeline by reading the readme files inside the respective folders for next steps. 
 
+1) [Single Chain Deep MainMast](https://github.com/kiharalab/DeepMainMast/tree/main/dmmsinglechain) 
+
+2) [Multi Chain Deep MainMast](https://github.com/kiharalab/DeepMainMast/tree/main/dmmmultichain)
+
+## Other easier ways to run quickly
+
+Code Ocean Capsule:
+- [Single Chain](https://codeocean.com/capsule/0866386/tree)
+- [Multi Chain](https://codeocean.com/capsule/9358532/tree)
+
+Colab Notebooks:
+- [Single Chain](https://colab.research.google.com/drive/17nvdYnP4-FNB0BtZ-fcxvooNLi1J1Nps?usp=sharing)
+- [Multi Chain](https://colab.research.google.com/drive/1YL0-DejR5vQ2x3EUk1LyRFjmN9X5Xvpz?usp=sharing)
