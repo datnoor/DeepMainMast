@@ -28,3 +28,5 @@ if [[ "$USE_AF" -eq 1 ]]; then
 fi
 
 ./g_cmd_combine_itr.sh $ID $TIME &>> /content/output
+
+python pre_rosetta_ranker.py $ID
