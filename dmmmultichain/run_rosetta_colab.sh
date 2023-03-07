@@ -16,8 +16,6 @@ if [[ $HETERO == 1 ]]; then
     ./i_cmd_rosettaCM.sh $ID $MODS
 else
     echo "Processing Homo oligomer pipeline"
-    ./g1_cmd_chain_assign_setup.sh $ID $TIME
-    ./g2_cmd_chain_assign.sh $ID $TIME
     ./h1_cmd_rosettaCM_setup_rechain.sh $ID
     ./i1_cmd_rosettaCM_all.sh $ID $MODS
 fi

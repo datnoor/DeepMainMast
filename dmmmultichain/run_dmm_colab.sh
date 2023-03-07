@@ -4,6 +4,12 @@ ID=$1
 TIME=$2
 CNT=$3
 USE_AF=$4
+if [ "$4" -eq "1" ] 
+then 
+    HETERO="1"
+else
+    HETERO="0"
+fi
 
 ./0_setup.sh $ID &>> /content/output
 
@@ -28,5 +34,10 @@ if [[ "$USE_AF" -eq 1 ]]; then
 fi
 
 ./g_cmd_combine_itr.sh $ID $TIME &>> /content/output
+
+if [[ $HETERO == 0 ]]; then
+    ./g1_cmd_chain_assign_setup.sh $ID $TIME
+    ./g2_cmd_chain_assign.sh $ID $TIME
+fi
 
 python pre_rosetta_ranker.py $ID
