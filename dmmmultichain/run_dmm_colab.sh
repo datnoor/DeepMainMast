@@ -4,7 +4,7 @@ ID=$1
 TIME=$2
 CNT=$3
 USE_AF=$4
-if [ "$4" -eq "1" ] 
+if [ "$5" -eq "1" ] 
 then 
     HETERO="1"
 else
