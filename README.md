@@ -34,5 +34,5 @@ Code Ocean Capsule:
 - [Multi Chain](https://codeocean.com/capsule/9358532/tree)
 
 Colab Notebooks:
-- [Single Chain](https://colab.research.google.com/drive/17nvdYnP4-FNB0BtZ-fcxvooNLi1J1Nps?usp=sharing)
-- [Multi Chain](https://colab.research.google.com/drive/1YL0-DejR5vQ2x3EUk1LyRFjmN9X5Xvpz?usp=sharing)
+- [Single Chain](https://colab.research.google.com/github/kiharalab/DeepMainMast/blob/main/DeepMainMast_Single_chain.ipynb)
+- [Multi Chain](https://colab.research.google.com/github/kiharalab/DeepMainMast/blob/main/DeepMainMast_Multi_chain.ipynb)
