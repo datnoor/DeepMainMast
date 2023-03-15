@@ -1,5 +1,7 @@
 # DeepMainMast
 
+<img src="DeepMainMast_Logo.png" height=300 width=300/>
+
 This repository contains the code implementation of "paper name and link". There are two folders i) dmmsinglechain supportd single chain protein maps ii) dmmmultichain supports multi chain protein maps.
 
 ## Dependencies
