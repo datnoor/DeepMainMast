@@ -1,8 +1,10 @@
 # DeepMainMast
 
-<img src="DeepMainMast_Logo.png" height=300 width=300/>
+<img src="DeepMainMast_Logo.png" height=380 width=300/>
 
-This repository contains the code implementation of "paper name and link". There are two folders i) dmmsinglechain supportd single chain protein maps ii) dmmmultichain supports multi chain protein maps.
+This repository contains the code implementation of "Integrated Protocol of Protein Structure Modeling for cryo-EM with Deep Learning and Structure Prediction, Genki Terashi, Xiao Wang, Devashish Prasad, and Daisuke Kihara, In submission (2023)". 
+
+There are two folders i) dmmsinglechain supportd single chain protein maps ii) dmmmultichain supports multi chain protein maps.
 
 ## Dependencies
 
@@ -38,3 +40,7 @@ Code Ocean Capsule:
 Colab Notebooks:
 - [Single Chain](https://colab.research.google.com/github/kiharalab/DeepMainMast/blob/main/DeepMainMast_Single_chain.ipynb)
 - [Multi Chain](https://colab.research.google.com/github/kiharalab/DeepMainMast/blob/main/DeepMainMast_Multi_chain.ipynb)
+
+## Cite this work 
+
+>"Integrated Protocol of Protein Structure Modeling for cryo-EM with Deep Learning and Structure Prediction, Genki Terashi, Xiao Wang, Devashish Prasad, and Daisuke Kihara, In submission (2023)"
