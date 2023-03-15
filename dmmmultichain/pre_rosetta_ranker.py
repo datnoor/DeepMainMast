@@ -3,6 +3,7 @@ import sys
 import glob
 
 job_name = sys.argv[1]
+hetero = sys.argv[2]
 
 def get_daq(modelname):
     # Compute DAQ score
@@ -54,8 +55,12 @@ def get_dot(modelname):
     return dot,dot/vol
 
 models_dict = {}
-
-comb_files = glob.glob(f"results/{job_name}/COMB*.pdb")
+comb_files = []
+if hetero: 
+    comb_files = glob.glob(f"results/{job_name}/COMB*.pdb")
+else:
+    comb_files = glob.glob(f"results/{job_name}/COMB*rechain*.pdb")
+    
 for model_path in comb_files:
     daq_score = get_daq(model_path[:-3])[2]  
     dot_score = get_dot(model_path[:-3])[1]  
