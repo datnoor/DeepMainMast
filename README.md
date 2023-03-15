@@ -1,6 +1,6 @@
 # DeepMainMast
 
-<img src="DeepMainMast_Logo.png" height=300 width=300/>
+<img src="DeepMainMast_Logo.png" height=380 width=300/>
 
 This repository contains the code implementation of "Integrated Protocol of Protein Structure Modeling for cryo-EM with Deep Learning and Structure Prediction, Genki Terashi, Xiao Wang, Devashish Prasad, and Daisuke Kihara, In submission (2023)". 
 
