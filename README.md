@@ -41,6 +41,10 @@ Colab Notebooks:
 - [Single Chain](https://colab.research.google.com/github/kiharalab/DeepMainMast/blob/main/DeepMainMast_Single_chain.ipynb)
 - [Multi Chain](https://colab.research.google.com/github/kiharalab/DeepMainMast/blob/main/DeepMainMast_Multi_chain.ipynb)
 
+## Examples of output files (https://kiharalab.org/emsuites/deepmainmast/examples/)
+- Single chain target 3j9sA (https://kiharalab.org/emsuites/deepmainmast/examples/3j9sA.zip)
+- Multimer target EMD-3073 (https://kiharalab.org/emsuites/deepmainmast/examples/3073.zip)
+
 ## Cite this work 
 
 >"Integrated Protocol of Protein Structure Modeling for cryo-EM with Deep Learning and Structure Prediction, Genki Terashi, Xiao Wang, Devashish Prasad, and Daisuke Kihara, In submission (2023)"
