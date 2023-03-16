@@ -58,9 +58,9 @@ The ranked folder .pdb files are actually the .pdb files ["S_singletgt_0001.pdb"
 
 #### 5. Output Files
 
-#####Emap2sf output: unet/
+##### Emap2sf output: unet/
+###### Atom type prediction:
 <pre>
-Atom type prediction:
 atom_BG.mrc		Background
 atom_C.mrc		Backbone Carbon
 atom_CA.mrc		Calpha
@@ -69,76 +69,77 @@ atom_N.mrc		Backbone Nitrogen
 atom_O.mrc		Backbone Oxgen
 atom_Others.mrc	Other atoms, Side-chain Atoms
 </pre>
-Amino Acid Type Prediction: unet/
+
+###### Amino Acid Type Prediction: unet/
 sigmoidAA_XXX.mrc 20 amino acid type
 
-Predicted Local Dense Points:
+##### Predicted Local Dense Points:
 NODE_p0.3.pdb	NODE_p0.4.pdb	NODE_p0.5.pdb
 
-Computed Paths using VRP Solver:
+##### Computed Paths using VRP Solver:
 PATH_p*Nch*.csv
 
-Computed Fragment Library:
+##### Computed Fragment Library:
 INP_p*Nch*Nali*.txt
 
-Computed Fragment Library with the AF2 model (if provided):
+##### Computed Fragment Library with the AF2 model (if provided):
 INP_p*Nch*Nali*R*.txt
 
-Assembled fragments in PDB format:
+##### Assembled fragments in PDB format:
 For each fragment library (INP*.txt), DeepMainmast generates one output (OUT*.pdb)
 OUT_p*Nch*Nali*.pdb
 
-Map-model fitting results using VESPER (if AF2 model is provided): VESPER_MODELs/
+##### Map-model fitting results using VESPER (if AF2 model is provided): VESPER_MODELs/
 af2_A_R*.out				output file of VESPER computation
 R*_A_FIT_MODEL*.pdb		Fitted models
 
 
-Input files for Assembling C-alpha Models:
-Input1: concatenated models
+##### Input files for Assembling C-alpha Models:
+###### Input1: concatenated models
 MODELs_AFonly.pdb		Concatenated all OUT*.pdb files
 MODELs_DMonly.pdb		Concatenated OUT*.pdb files without the AF2 data
 MODELs_VESPER.pdb		Concatenated fitted models in VESPER_MODELs/
 MODELs_all.pdb			Concatenated all OUT*.pdb files
 
-Input2: matrix files
+###### Input2: matrix files
 MTX_AFonly.txt
 MTX_DMonly.txt
 MTX_VESPER.txt
 MTX_all.txt
 
-Output: Assembled Calpha Models
+##### Output: Assembled Calpha Models
 COMBINEi_AFonly.pdb
 COMBINEi_DMonly.pdb
 COMBINEi_VESPER.pdb
 COMBINEi_all.pdb
 
-For Homo-oligomer target, DeepMainmast refines the chain ID assignment (If specified):
+###### For Homo-oligomer target, DeepMainmast refines the chain ID assignment (If specified):
 COMBINEi_AFonly_rechain_d3.0_w1.0.pdb
 COMBINEi_DMonly_rechain_d3.0_w1.0.pdb
 COMBINEi_VESPER_rechain_d3.0_w1.0.pdb
 COMBINEi_all_rechain_d3.0_w1.0.pdb
 
-Ranked C-alpha Models using DAQ and DOT scores:
+##### Ranked C-alpha Models using DAQ and DOT scores:
 pre_rosetta_ranked/
 rank1.pdb
 rank2.pdb
 rank3.pdb
 rank4.pdb
 
-Full-atom modeling results:
+##### Full-atom modeling results:
 Hetero-oligomer target:
 CM_COMBINEi_AFonly/
 CM_COMBINEi_DMonly/
 CM_COMBINEi_VESPER/
 CM_COMBINEi_all_rechain/
 
-Homo-oligomer target
+##### Homo-oligomer target
 CM_COMBINEi_AFonly_rechain_d3.0_w1.0/
 CM_COMBINEi_DMonly_rechain_d3.0_w1.0/
 CM_COMBINEi_VESPER_rechain_d3.0_w1.0/
 CM_COMBINEi_all_rechain_d3.0_w1.0/
 
-Ranked Full-atom Models using DAQ and DOT score:
+##### Ranked Full-atom Models using DAQ and DOT score:
 ranked/
 rank1.pdb
 rank2.pdb
