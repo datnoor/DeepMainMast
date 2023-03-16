@@ -55,7 +55,7 @@ def get_dot(modelname):
     return dot,dot/vol
 
 models_dict = {}
-pattern = "COMB*.pdb" if hetero else "COMB*rechain*.pdb"
+pattern = "COMB*.pdb" if int(hetero) else "COMB*rechain*.pdb"
 comb_files = glob.glob(f"results/{job_name}/{pattern}")
     
 for model_path in comb_files:
