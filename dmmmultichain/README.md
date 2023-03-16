@@ -147,7 +147,7 @@ CM_COMBINEi_DMonly/
 CM_COMBINEi_VESPER/
 CM_COMBINEi_all_rechain/
 </pre>
-##### Homo-oligomer target
+##### (Homo-oligomer target)
 <pre>
 CM_COMBINEi_AFonly_rechain_d3.0_w1.0/
 CM_COMBINEi_DMonly_rechain_d3.0_w1.0/
