@@ -71,81 +71,97 @@ atom_Others.mrc	Other atoms, Side-chain Atoms
 </pre>
 
 ###### Amino Acid Type Prediction: unet/
+<pre>
 sigmoidAA_XXX.mrc 20 amino acid type
-
+</pre>
 ##### Predicted Local Dense Points:
+<pre>
 NODE_p0.3.pdb	NODE_p0.4.pdb	NODE_p0.5.pdb
-
+</pre>
 ##### Computed Paths using VRP Solver:
+<pre>
 PATH_p*Nch*.csv
-
+</pre>
 ##### Computed Fragment Library:
+<pre>
 INP_p*Nch*Nali*.txt
-
+</pre>
 ##### Computed Fragment Library with the AF2 model (if provided):
+<pre>
 INP_p*Nch*Nali*R*.txt
-
+</pre>
 ##### Assembled fragments in PDB format:
+<pre>
 For each fragment library (INP*.txt), DeepMainmast generates one output (OUT*.pdb)
 OUT_p*Nch*Nali*.pdb
-
+</pre>
 ##### Map-model fitting results using VESPER (if AF2 model is provided): VESPER_MODELs/
+<pre>
 af2_A_R*.out				output file of VESPER computation
 R*_A_FIT_MODEL*.pdb		Fitted models
-
+</pre>
 
 ##### Input files for Assembling C-alpha Models:
 ###### Input1: concatenated models
+<pre>
 MODELs_AFonly.pdb		Concatenated all OUT*.pdb files
 MODELs_DMonly.pdb		Concatenated OUT*.pdb files without the AF2 data
 MODELs_VESPER.pdb		Concatenated fitted models in VESPER_MODELs/
 MODELs_all.pdb			Concatenated all OUT*.pdb files
+</pre>
 
 ###### Input2: matrix files
+<pre>
 MTX_AFonly.txt
 MTX_DMonly.txt
 MTX_VESPER.txt
 MTX_all.txt
-
+</pre>
 ##### Output: Assembled Calpha Models
+<pre>
 COMBINEi_AFonly.pdb
 COMBINEi_DMonly.pdb
 COMBINEi_VESPER.pdb
 COMBINEi_all.pdb
-
+</pre>
 ###### For Homo-oligomer target, DeepMainmast refines the chain ID assignment (If specified):
+<pre>
 COMBINEi_AFonly_rechain_d3.0_w1.0.pdb
 COMBINEi_DMonly_rechain_d3.0_w1.0.pdb
 COMBINEi_VESPER_rechain_d3.0_w1.0.pdb
 COMBINEi_all_rechain_d3.0_w1.0.pdb
-
+</pre>
 ##### Ranked C-alpha Models using DAQ and DOT scores:
+<pre>
 pre_rosetta_ranked/
 rank1.pdb
 rank2.pdb
 rank3.pdb
 rank4.pdb
-
+</pre>
 ##### Full-atom modeling results:
+<pre>
 Hetero-oligomer target:
 CM_COMBINEi_AFonly/
 CM_COMBINEi_DMonly/
 CM_COMBINEi_VESPER/
 CM_COMBINEi_all_rechain/
-
+</pre>
 ##### Homo-oligomer target
+<pre>
 CM_COMBINEi_AFonly_rechain_d3.0_w1.0/
 CM_COMBINEi_DMonly_rechain_d3.0_w1.0/
 CM_COMBINEi_VESPER_rechain_d3.0_w1.0/
 CM_COMBINEi_all_rechain_d3.0_w1.0/
-
+</pre>
 ##### Ranked Full-atom Models using DAQ and DOT score:
+<pre>
 ranked/
 rank1.pdb
 rank2.pdb
 rank3.pdb
 rank4.pdb
-
+</pre>
 
 
 
