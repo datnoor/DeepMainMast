@@ -55,11 +55,8 @@ def get_dot(modelname):
     return dot,dot/vol
 
 models_dict = {}
-comb_files = []
-if hetero: 
-    comb_files = glob.glob(f"results/{job_name}/COMB*.pdb")
-else:
-    comb_files = glob.glob(f"results/{job_name}/COMB*rechain*.pdb")
+pattern = "COMB*.pdb" if hetero else "COMB*rechain*.pdb"
+comb_files = glob.glob(f"results/{job_name}/{pattern}")
     
 for model_path in comb_files:
     daq_score = get_daq(model_path[:-3])[2]  

@@ -22,4 +22,5 @@ do
 				python3 bin/btpdb2mrc.py $reso $input_model $map
 			fi
 		fi
+	done
 done

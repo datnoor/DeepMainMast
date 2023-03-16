@@ -40,4 +40,4 @@ if [[ $HETERO == 0 ]]; then
     ./g2_cmd_chain_assign.sh $ID $TIME
 fi
 
-python pre_rosetta_ranker.py $ID
+python pre_rosetta_ranker.py $ID $HETERO
