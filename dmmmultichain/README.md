@@ -57,8 +57,9 @@ Your results will be generated under results/\<your job name\> directory. Under 
 The ranked folder .pdb files are actually the .pdb files ["S_singletgt_0001.pdb", "S_singletgt_0002.pdb", "S_singletgt_0003.pdb", "S_singletgt_0004.pdb", "S_singletgt_0005.pdb"] from these 4 folders ["CM_all", "CM_VESPER", "CM_DMonly", "CM_AFonly"] under the results/\<your job name\>/ranked folder. 
 
 #### 5. Output Files
+The DeepMainmast protocol generates the following output files in results/\<your job name\> directory.
 
-##### Emap2sf output: unet/
+##### Emap2sf output (Predicting local propaties of the protein structure): unet/
 ###### Atom type prediction:
 <pre>
 atom_BG.mrc		Background
