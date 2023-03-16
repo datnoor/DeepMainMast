@@ -58,7 +58,8 @@ The ranked folder .pdb files are actually the .pdb files ["S_singletgt_0001.pdb"
 
 #### 5. Output Files
 The DeepMainmast protocol generates the following output files in results/\<your job name\> directory.
-
+#### Examples of output files (https://kiharalab.org/emsuites/deepmainmast/examples/)
+- Multimer target EMD-3073 (https://kiharalab.org/emsuites/deepmainmast/examples/3073.zip)
 ##### Emap2sf output (Predicting local propaties of the protein structure): unet/
 ###### Atom type prediction:
 <pre>
